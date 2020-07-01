@@ -1,6 +1,7 @@
 ---
 title: Collaborate
 date: 2020-07-01 10:56:00 -04:00
+layout: page
 ---
 
 # Collaborate

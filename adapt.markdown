@@ -1,9 +1,10 @@
 ---
 title: Adapt
 date: 2020-07-01 12:10:00 -04:00
+layout: page
 ---
 
-### Adapt
+<b>adapt</b>
 # Learn how to adapt your giving strategy
 
 ## Peer Learning
