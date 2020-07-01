@@ -23,11 +23,7 @@ defaults:
 encoding: utf-8
 permalink: pretty
 remote_theme: daviddarnes/alembic
-
-#plugins
 plugins:
-  - jekyll-remote-theme
-
-# Alembic theme settings
-description: "A website for Canadian philanthropy."
+- jekyll-remote-theme
+description: A website for Canadian philanthropy.
 lang: en-CA
