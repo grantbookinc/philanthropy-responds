@@ -23,7 +23,4 @@ defaults:
 encoding: utf-8
 permalink: pretty
 theme: alembic-jekyll-theme
-
-# Alembic theme settings
-description: "A website for Canadian philanthropy."
-lang: en-CA
+layout: 
