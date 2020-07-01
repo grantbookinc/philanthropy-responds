@@ -7,5 +7,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"
 gem 'jekyll'
 
-# boilerplate theme
-gem "alembic-jekyll-theme"
+# gem for boilerplate theme
+# gem "alembic-jekyll-theme"
+
+# gem for github pages
+gem "github-pages", "~> 206", group: :jekyll_plugins

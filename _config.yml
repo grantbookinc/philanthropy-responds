@@ -26,7 +26,7 @@ remote_theme: daviddarnes/alembic
 
 #plugins
 plugins:
-  jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Alembic theme settings
 description: "A website for Canadian philanthropy."
