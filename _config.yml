@@ -1,6 +1,7 @@
 ---
 title: Philanthropy Responds
 timezone: America/New_York
+encoding: utf-8
 collections:
   posts:
     title: Posts
