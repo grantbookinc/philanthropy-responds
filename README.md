@@ -5,7 +5,6 @@ Philanthropy Responds is a joint digital project by the Canadian philanthropic p
 ## The Team
 This is a joint digital project between *Philanthropy Foundations Canada*, *Community Foundations of Canada*, *Environment Funders of Canada*, and *The Circle*, with technical and design support provided by *Grantbook*.
 
---
 
 # For the Tech Team
 
