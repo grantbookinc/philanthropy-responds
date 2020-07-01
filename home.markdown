@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Index
 date: 2020-07-01 10:56:00 -04:00
 ---
 
