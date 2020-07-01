@@ -5,8 +5,8 @@ layout: page
 feature_text: |
   ## Philanthropy Responds
   How the Canadian philanthropic community is responding to COVID-19
-feature_image: "assets/hero.jpeg"
-excerpt: "A joint digital project between PFC, CFC, EFC, and The Circle."
+feature_image: assets/hero.jpeg
+excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 ---
 
 # Hello, world!
