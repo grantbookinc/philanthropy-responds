@@ -1,6 +1,6 @@
 ---
 title: Collaborate
-date: 2020-07-01 10:56:00 -04:00
+date: 2020-07-01 14:56:00 Z
 layout: page
 ---
 

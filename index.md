@@ -1,6 +1,6 @@
 ---
 title: Home
-date: 2020-07-01 10:56:00 -04:00
+date: 2020-07-01 14:56:00 Z
 feature_text: |
   ## Philanthropy Responds
   How the Canadian philanthropic community is responding to COVID-19
