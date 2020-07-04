@@ -92,6 +92,12 @@ $directions: (
     }
 };
 
+@each $x, $side in $directions {
+    .align#{$x} {
+        text-align: align-#{$side};
+    }
+}
+
 
 // Alembic Theme Settings --------------------------------------
 // These are variables used in the Alembic base theme

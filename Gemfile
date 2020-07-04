@@ -6,6 +6,7 @@ git_source(:github) {|repo_name| "https://github.com/grantbookinc/philanthropy-r
 
 # gem "rails"
 gem 'jekyll'
+gem "jekyll-include-cache"
 
 # rollback gem jekyll-sitemap
 # gem "jekyll-sitemap, "0.10", :group => :test
