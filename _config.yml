@@ -135,42 +135,42 @@ collections:
 #       permalink: "/posts/:title/"
 
 # 7. Site settings
-# encoding: utf-8 # Make sure the encoding is right
-# lang: en-CA # Set the site language
-# title: "Philanthropy Responds" # Site name or title, also used in jekyll-seo-tag
-# logo: "/assets/brand/Logo.svg" # Site logo, also used in jekyll-seo-tag
-# description: "A website for Canadian philanthropy. # Site description and default description, also used in jekyll-seo-tag
-# url: "https://philanthropyresponds.ca" # Site url, also used in jekyll-seo-tag
-# baseurl: ""
-# repo: "https://github.com/grantbookinc/philanthropy-responds"
-# email: "hey@grantbook.org"
-# # disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# # google_analytics: ''
-# # google_analytics_anonymize_ip: ''
-# # service_worker: false # Will turn off the service worker if set to false
-# css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
+encoding: utf-8 # Make sure the encoding is right
+lang: en-CA # Set the site language
+title: "Philanthropy Responds" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/brand/Logo.svg" # Site logo, also used in jekyll-seo-tag
+description: "A website for Canadian philanthropy. # Site description and default description, also used in jekyll-seo-tag
+url: "https://philanthropyresponds.ca" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+repo: "https://github.com/grantbookinc/philanthropy-responds"
+email: "hey@grantbook.org"
+# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
+# google_analytics: ''
+# google_analytics_anonymize_ip: ''
+# service_worker: false # Will turn off the service worker if set to false
+css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
 
 # 8. Site favicons & manifest icons
-# favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-#   16: '/assets/brand/lotus@16px.png'
-#   32: '/assets/brand/lotus@32px.png'
-#   96: '/assets/brand/lotus@96px.png'
-#   120: '/assets/brand/lotus@120px.png'
-#   144: '/assets/brand/lotus@144px.png'
-#   180: '/assets/brand/lotus@180px.png'
-#   512: '/assets/brand/lotus@512px.png'
-#   1024: '/assets/brand/lotus@1024px.png'
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  16: '/assets/brand/lotus@16px.png'
+  32: '/assets/brand/lotus@32px.png'
+  96: '/assets/brand/lotus@96px.png'
+  120: '/assets/brand/lotus@120px.png'
+  144: '/assets/brand/lotus@144px.png'
+  180: '/assets/brand/lotus@180px.png'
+  512: '/assets/brand/lotus@512px.png'
+  1024: '/assets/brand/lotus@1024px.png'
 
 # 9. Site navigation
-# navigation_header:
-# - title: Home
-#   url: /
-# - title: Collaborate
-#   url: /collaborate/
-# - title: Adapt
-#   url: /adapt/
-# - title: Participate
-#   url: /participate/
+navigation_header:
+- title: Home
+  url: /
+- title: Collaborate
+  url: /collaborate/
+- title: Adapt
+  url: /adapt/
+- title: Participate
+  url: /participate/
 
 navigation_footer:
 - title: Contribute your data
