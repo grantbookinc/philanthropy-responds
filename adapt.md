@@ -1,6 +1,6 @@
 ---
 title: Adapt
-date: 2020-07-01 12:10:00 -04:00
+date: 2020-07-01 16:10:00 Z
 layout: page
 ---
 
