@@ -32,7 +32,6 @@ plugins:
 - jekyll-remote-theme
 description: A website for Canadian philanthropy.
 lang: en-CA
-<<<<<<< HEAD
 
 
 # Rejigged config
@@ -164,18 +163,16 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   1024: '/assets/brand/lotus@1024px.png'
 
 # 9. Site navigation
-navigation_header:
-- title: Home
-  url: /
-- title: Collaborate
-  url: /collaborate/
-- title: Adapt
-  url: /adapt/
-- title: Participate
-  url: /participate/
+# navigation_header:
+# - title: Home
+#   url: /
+# - title: Collaborate
+#   url: /collaborate/
+# - title: Adapt
+#   url: /adapt/
+# - title: Participate
+#   url: /participate/
 
-=======
->>>>>>> aa329cb182e84b89315b66a21c6cf8c71f6cfde4
-navigation_footer:
-- title: Contribute your data
-  url: "#"
+# navigation_footer:
+# - title: Contribute your data
+#   url: "#"
