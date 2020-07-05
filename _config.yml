@@ -1,88 +1,18 @@
 ---
-# Rejigged config
-
-# Set the Theme
-# theme: alembic-jekyll-theme
-remote_theme: daviddarnes/alembic
-
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site favicons & manifest icons
-# 9. Site navigation
-
-# 1. Files excluded from Jekyll builds
-exclude:
-- README.md
-- CODE_OF_CONDUCT.md
-- CONTRIBUTING.md
-- screenshot.png
-- LICENSE
-- CNAME
-- Gemfile
-- Gemfile.lock
-- alembic-jekyll-theme.gemspec
-- .jekyll-cache
-
-# 2. Installed Gems
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jekyll-commonmark
-# - jekyll-include-cache -> this creates build errors
-- jemoji
-
-# 3. Gem settings
-paginate: 2 # jekyll-paginate > items per page
-paginate_path: blog/page:num # jekyll-paginate > blog page
-jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
-twitter:
-  username: magsonfire # jekyll-seo-tag > Owners twitter username
-author: PhilanthropyResponds # jekyll-seo-tag > default author
-social: # jekyll-seo-tag > social overrides
-  name: Philanthropy Responds # jekyll-seo-tag > real name
-  links:  # jekyll-seo-tag > social aliases (sameAs)
-    # - https://twitter.com/DavidDarnes
-    # - https://www.facebook.com/daviddarnes
-    # - https://www.linkedin.com/in/daviddarnes
-    # - https://github.com/daviddarnes
-# markdown: CommonMark # Markdown parse settings, CommonMark performs slightly better an others in build time
-# commonmark:
-  # options: ["SMART", "FOOTNOTES"]
-  # extensions: ["strikethrough", "autolink", "table"]
-
-# 4. Jekyll settings
-sass:
-  style: compressed # Style compression
-permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
-excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: America/New_York # Timezone for blog posts and alike
-
-# 5. Collections
+title: Philanthropy Responds
+timezone: America/New_York
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: Posts
     output: true
-    description: "Posts" # The post list page content
-    feature_text: |
-      Welcome to the blog
-    feature_image: "assets/img/hero.jpeg"
+    description: Posts
+    feature_text: 'Welcome to the blog
+
+'
+    feature_image: assets/img/hero.jpeg
   uploads:
     title: Uploads
     output: true
-
-# 6. Jekyll collections settings
 defaults:
 - scope:
     path: ''
@@ -96,48 +26,72 @@ defaults:
   values:
     layout: page
 - scope:
-    path: ""
+    path: ''
   values:
-    image: "/assets/brand/lotus@1024px.png" # Default image for sharing
-
-# 7. Site settings
-encoding: utf-8 # Make sure the encoding is right
-lang: en-CA # Set the site language
-title: "Philanthropy Responds" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/brand/Logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "A website for Canadian philanthropy." # Site description and default description, also used in jekyll-seo-tag
-url: "https://philanthropyresponds.ca" # Site url, also used in jekyll-seo-tag
-baseurl: ""
-repo: "https://github.com/grantbookinc/philanthropy-responds"
-email: "hey@grantbook.org"
-# disqus: "alembic-1" # Blog post comments, uncomment the option and set the site ID from your Disqus account
-# google_analytics: ''
-# google_analytics_anonymize_ip: ''
-# service_worker: false # Will turn off the service worker if set to false
-css_inline: true # Will insert all styles into a single <style> block in the <head> element and remove the style <link> reference
-
-# 8. Site favicons & manifest icons
-favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
-  16: '/assets/brand/lotus@16px.png'
-  32: '/assets/brand/lotus@32px.png'
-  96: '/assets/brand/lotus@96px.png'
-  120: '/assets/brand/lotus@120px.png'
-  144: '/assets/brand/lotus@144px.png'
-  180: '/assets/brand/lotus@180px.png'
-  512: '/assets/brand/lotus@512px.png'
-  1024: '/assets/brand/lotus@1024px.png'
-
-# 9. Site navigation
+    image: "/assets/brand/lotus@1024px.png"
+remote_theme: daviddarnes/alembic
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- ".jekyll-cache"
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jekyll-commonmark
+- jemoji
+paginate: 2
+paginate_path: blog/page:num
+jekyll-mentions: https://twitter.com
+twitter:
+  username: magsonfire
+author: PhilanthropyResponds
+social:
+  name: Philanthropy Responds
+  links: 
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+encoding: utf-8
+lang: en-CA
+logo: "/assets/brand/Logo.svg"
+description: A website for Canadian philanthropy.
+url: https://philanthropyresponds.ca
+baseurl: ''
+repo: https://github.com/grantbookinc/philanthropy-responds
+email: hey@grantbook.org
+css_inline: true
+favicons:
+  '16': "/assets/brand/lotus@16px.png"
+  '32': "/assets/brand/lotus@32px.png"
+  '96': "/assets/brand/lotus@96px.png"
+  '120': "/assets/brand/lotus@120px.png"
+  '144': "/assets/brand/lotus@144px.png"
+  '180': "/assets/brand/lotus@180px.png"
+  '512': "/assets/brand/lotus@512px.png"
+  '1024': "/assets/brand/lotus@1024px.png"
 navigation_header:
 - title: Home
-  url: /
+  url: "/"
 - title: Collaborate
-  url: /collaborate/
+  url: "/collaborate/"
 - title: Adapt
-  url: /adapt/
+  url: "/adapt/"
 - title: Participate
-  url: /participate/
-
+  url: "/participate/"
 navigation_footer:
 - title: Contribute your data
   url: "#"
