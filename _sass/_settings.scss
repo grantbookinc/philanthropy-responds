@@ -1,6 +1,3 @@
-// Imports --------------------------------------
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap');
-
 // Philanthropy Responds --------------------------------------
 // Primary Colors
 $ruby:               #e33d43;
@@ -35,7 +32,11 @@ $theme-colors: (
     "lake": $lake,
     "canary": $canary,
     "mint": $mint,
-    "grape": $grape
+    "grape": $grape,
+    "white": $white,
+    "light": $grey-100,
+    "dark": $grey-500,
+    "black": $grey-600
 );
 
 // Sass Color Variant Classes
