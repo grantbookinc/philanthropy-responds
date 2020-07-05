@@ -1,52 +1,8 @@
 ---
-<<<<<<< HEAD
 # Rejigged config
 
 # Set the Theme
 # theme: alembic-jekyll-theme
-=======
-title: Philanthropy Responds
-timezone: America/New_York
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: Posts
-    feature_text: 'Welcome to the blog
-
-'
-    feature_image: assets/img/hero.jpeg
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-  values:
-    image: "/assets/brand/lotus@1024px.png"
-plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jekyll-commonmark
-- jemoji
->>>>>>> 5bf63b7bd789eeb10397970e452a4c58ee7f99d9
 remote_theme: daviddarnes/alembic
 exclude:
 - README.md
@@ -69,7 +25,6 @@ social:
   name: Philanthropy Responds
   links: 
 sass:
-<<<<<<< HEAD
   style: compressed # Style compression
 permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
@@ -134,21 +89,6 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
   1024: '/assets/brand/lotus@1024px.png'
 
 # 9. Site navigation
-=======
-  style: compressed
-permalink: pretty
-excerpt_separator: "<!-- more -->"
-css_inline: true
-favicons:
-  '16': "/assets/brand/lotus@16px.png"
-  '32': "/assets/brand/lotus@32px.png"
-  '96': "/assets/brand/lotus@96px.png"
-  '120': "/assets/brand/lotus@120px.png"
-  '144': "/assets/brand/lotus@144px.png"
-  '180': "/assets/brand/lotus@180px.png"
-  '512': "/assets/brand/lotus@512px.png"
-  '1024': "/assets/brand/lotus@1024px.png"
->>>>>>> 5bf63b7bd789eeb10397970e452a4c58ee7f99d9
 navigation_header:
 - title: Home
   url: "/"
