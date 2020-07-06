@@ -1,14 +1,14 @@
 // Philanthropy Responds --------------------------------------
 // Primary Colors
-$ruby:               #e33d43;
-$lake:             #0090AF;
+$ruby:            #e33d43;
+$lake:            #0090AF;
 $canary:          #FAD739;
 $mint:            #59CD90;
 $grape:           #152D6D;
 
 // Secondary Variants
-$ruby-faded:         #F19EA1;
-$lake-faded:       #80C7D7;
+$ruby-faded:      #F19EA1;
+$lake-faded:      #80C7D7;
 $canary-faded:    #FDEFB0;
 $mint-faded:      #BDEBD3;
 $grape-faded:     #7381A7;
@@ -107,7 +107,7 @@ $directions: (
 // Background colours
 $backgroundColour: $white !default;
 $codeBackgroundColour: $canary-faded !default;
-$featureBackgroundColour: $mint-faded !default;
+$featureBackgroundColour: $grey-300 !default;
 $accentColour: $ruby !default;
 
 // Text colours
@@ -117,6 +117,10 @@ $linkColour: $lake !default;
 $hoverColour: $ruby !default;
 $focusColour: $grape !default;
 $captionColour: $grey-400 !default;
+
+$navColour: $grey-500 !default;
+$navHoverColour: $lake !default;
+$navActiveColour: $lake !default;
 
 // Typography
 $bodytype: (
@@ -143,3 +147,17 @@ $monospacetype: (
   regular: 400,
   cap-height: 0.68
 ) !default;
+
+// Disabling Weird Ligatures ---------------
+h1, h2, h3, h4, h5, h6 {
+    font-feature-settings: "dlig" 0 !important;
+}
+
+// Transitions ---------------
+@mixin textTransition {
+    -webkit-transition: color 300ms ease-out;
+    -moz-transition: color 300ms ease-out;
+    -ms-transition: color 300ms ease-out;
+    -o-transition: color 300ms ease-out;
+    transition: color 300ms ease-out;
+}

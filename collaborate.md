@@ -2,10 +2,12 @@
 title: Collaborate
 date: 2020-07-01 14:56:00 Z
 layout: page
+excerpt: How philanthropists are adapting.
+feature_image: ../assets/img/hero-collaborate.png
+feature_text: |
+  ###### COLLABORATE
+  # Find ways to multiply your impact
 ---
-
-# Collaborate
-## Find ways to multiply your impact
 
 ### Giving Dashboard
 

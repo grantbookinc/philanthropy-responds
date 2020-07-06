@@ -2,10 +2,12 @@
 title: Adapt
 date: 2020-07-01 16:10:00 Z
 layout: page
+excerpt: How philanthropists are adapting.
+feature_image: ../assets/img/hero-adapt.png
+feature_text: |
+  ###### ADAPT
+  # Learn how to adapt your giving strategy
 ---
-
-<b>adapt</b>
-# Learn how to adapt your giving strategy
 
 ## Peer Learning
 
