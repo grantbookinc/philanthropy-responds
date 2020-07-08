@@ -122,9 +122,9 @@ $navColour: $grey-500 !default;
 $navHoverColour: $lake !default;
 $navActiveColour: $lake !default;
 
-$footerColour: $white !default;
+$footerColour: darken($white, 15) !default;
 $footerLinkColour: $canary !default;
-$footerLinkHoverColour: $canary-faded !default;
+$footerLinkHoverColour: $lake !default;
 
 // Typography
 $bodytype: (

@@ -184,6 +184,7 @@ body {
     color: $footerColour;
     a {
       color: $footerLinkColour;
+      @include textTransition;
       &:hover {
         color: $footerLinkHoverColour;
       }
@@ -451,7 +452,8 @@ body {
 
     &:hover {
       box-shadow: none;
-      background: darken($canary, 15);
+      background: $lake;
+      color: $white;
     }
   }
   
