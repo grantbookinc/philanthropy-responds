@@ -1,9 +1,34 @@
+<!-- TODO 
+      1. Add faded logo icon in bkg 
+      2. Add project acknowledgment to bottom-left 
+      3. Add CTA to the collection form to bottom-right -->
+
 <footer class="footer bg-grey-600 text-white">
-    <div class="container">
-      <div class="copyright  typeset">
-        <small class="small">&copy; {{ site.title }} {{ site.time | date: '%Y' }}</small>
-      </div>
-  
-      {% include nav-footer.html %}
+  <div class="container">
+    <div class="acknowledgement">
+      <img src="../assets/brand/logo-white.png" />
+
+      <small class="small">
+        A joint project between the <a href="https://pfc.ca/">Philanthropic Foundations of Canada</a>, <a href="https://communityfoundations.ca/">Community Foundations of Canada</a>, <a href="https://environmentfunders.ca/">Environment Funders Canada</a>, and <a href="https://www.the-circle.ca/">The Circle on Philanthropy and Aboriginal Peoples in Canada</a>, with technical and design support provided by <a href="https://www.grantbook.org/">Grantbook</a>.
+      </small>
     </div>
-  </footer>
+
+    <!-- Footer Button (CMS Field is in Site Settings) -->
+    {% if site.footer_cta %}
+      {% for item in site.footer_cta %}
+
+        {% if item.url contains '://' %}
+          {% assign url = item.url %}
+        {% else %}
+          {% assign url = item.url | relative_url %}
+        {% endif %}
+
+        <a href="{{ item.url }}"></a>
+          <button class="button--footer">
+          {{ item.title }}
+          </button>
+        </a>
+      {% endfor %}
+    {% endif %}
+  </div>
+</footer>

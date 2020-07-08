@@ -143,6 +143,6 @@ navigation_header:
 - title: Participate
   url: /participate/
 
-navigation_footer:
+footer_cta:
 - title: Contribute your data
   url: "/participate/"

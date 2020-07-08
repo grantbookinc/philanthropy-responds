@@ -117,7 +117,7 @@ body {
         left: 0;
         height: 90%;
         width: 100%;
-        background: transparentize($lake, 0.2);
+        background: transparentize($lake, 0.1);
       }
 
       .container {
@@ -171,24 +171,43 @@ body {
   
   .small {
     padding-top: .8rem;
-    color: $captionColour;
     display: inline-block;
   }
   
   .footer {
-    background: $grey-500;
-    color: $captionColour;
+    min-height: 10rem;
+    background-color: $grey-500;
+    background-position: 105% center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/brand/lotus-watermark.svg);
+    color: $footerColour;
     a {
-      color: $captionColour;
+      color: $footerLinkColour;
       &:hover {
-        color: $backgroundColour;
+        color: $footerLinkHoverColour;
       }
     }
     .container {
       @include flex-wrap(wrap);
+      padding-top: 2rem;
+      align-items: flex-start;
     }
+    // The logo in the footer
+    img {
+      width: 180px;
+      display: block;
+    }
+
     .small {
+      display: block;
       padding-top: 0;
+      line-height: 1.5;
+      padding-left: 68px;
+    }
+
+    .acknowledgement {
+      max-width: 800px;
     }
   }
   
@@ -416,6 +435,21 @@ body {
     &:active,
     &:focus {
       box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
+    }
+  }
+
+  .button--footer {
+    @extend button;
+    background: $canary;
+    color: $grey-600;
+
+    a {
+      color: $grey-600;
+    }
+
+    &:hover {
+      box-shadow: none;
+      background: $mint;
     }
   }
   
