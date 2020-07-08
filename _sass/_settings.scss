@@ -165,3 +165,11 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: color 300ms ease-out;
     transition: color 300ms ease-out;
 }
+
+@mixin backgroundTransition {
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    -ms-transition: background-color 300ms ease-out;
+    -o-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+}

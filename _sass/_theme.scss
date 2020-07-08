@@ -177,7 +177,7 @@ body {
   .footer {
     min-height: 10rem;
     background-color: $grey-500;
-    background-position: 105% center;
+    background-position: 105% top;
     background-size: 400px;
     background-repeat: no-repeat;
     background-image: url(../assets/brand/lotus-watermark.svg);
@@ -190,12 +190,12 @@ body {
     }
     .container {
       @include flex-wrap(wrap);
-      padding-top: 2rem;
+      padding: 2rem 0;
       align-items: flex-start;
     }
     // The logo in the footer
     img {
-      width: 180px;
+      width: 200px;
       display: block;
     }
 
@@ -442,6 +442,8 @@ body {
     @extend button;
     background: $canary;
     color: $grey-600;
+    margin-top: 2rem;
+    @include backgroundTransition;
 
     a {
       color: $grey-600;
@@ -449,7 +451,7 @@ body {
 
     &:hover {
       box-shadow: none;
-      background: $mint;
+      background: darken($canary, 20);
     }
   }
   
