@@ -142,7 +142,3 @@ navigation_header:
   url: /adapt/
 - title: Participate
   url: /participate/
-
-footer_cta:
-- title: Contribute your data
-  url: "/participate/"

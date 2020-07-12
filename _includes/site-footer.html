@@ -1,8 +1,3 @@
-<!-- TODO 
-      1. Add faded logo icon in bkg 
-      2. Add project acknowledgment to bottom-left 
-      3. Add CTA to the collection form to bottom-right -->
-
 <footer class="footer bg-grey-600 text-white">
   <div class="container">
     <div class="acknowledgement">
@@ -13,22 +8,10 @@
       </small>
     </div>
 
-    <!-- Footer Button (CMS Field is in Site Settings) -->
-    {% if site.footer_cta %}
-      {% for item in site.footer_cta %}
-
-        {% if item.url contains '://' %}
-          {% assign url = item.url %}
-        {% else %}
-          {% assign url = item.url | relative_url %}
-        {% endif %}
-
-        <a href="{{ item.url }}"></a>
-          <button class="button--footer">
-          {{ item.title }}
-          </button>
-        </a>
-      {% endfor %}
-    {% endif %}
+    <a href="/participate/"></a>
+      <button class="button--footer">
+      Contribute Your Data
+      </button>
+    </a>
   </div>
 </footer>

@@ -9,6 +9,6 @@ feature_text: |
   # Find ways to multiply your impact
 ---
 
-### Giving Dashboard
+## Giving Dashboard
 
 See the data on how Canadian foundations have responded to COVID-19, to find opportunities to collaborate with other funders. You can also filter and export these data for your reference.

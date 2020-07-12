@@ -3,16 +3,31 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.25pt;
 }
 
+// H1 should ONLY be used as the page title in the feature text
+// This helps robots crawl this page.
 h1 {
   font-weight: 200;
+  color: $white;
 }
 
-h2, h3, h4 {
+// H2 is the primary heading for text within the page content
+h2 {
+  font-weight: 200;
+  color: $ruby;
+}
+
+h3 {
+  font-size: 1.25rem !important;
+}
+
+h3, h4 {
   font-weight: 400;
+  color: $grape;
 }
 
 h3, h4 {
   color: $grey-500;
+  color: $grape;
 }
 
 h5, h6 {
@@ -172,6 +187,39 @@ body {
   .small {
     padding-top: .8rem;
     display: inline-block;
+  }
+
+  .cta {
+    display: flex;
+
+    .cta-obj {
+      display: flex;
+      flex-direction: column;
+
+      &.flipped {
+        flex-direction: column-reverse;
+      }
+
+      .cta-description {
+        padding: 1rem 2rem;
+        background: $lake;
+
+        h4 {
+          font-size: 1rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        h4, p {
+          max-width: 100%;
+        }
+      }
+
+      img {
+        flex-basis: 50%;
+        width: 100%;
+      }
+    }
   }
   
   .footer {
@@ -439,12 +487,28 @@ body {
     }
   }
 
+  .button--white {
+    @extend button;
+    background: transparent;
+    color: $white;
+    border: 1px solid $white;
+    @include backgroundTransition;
+    @include textTransition;
+
+    &:hover, &:focus {
+      box-shadow: none;
+      background: $white;
+      color: $grey-600;
+    }
+  }
+
   .button--footer {
     @extend button;
     background: $canary;
     color: $grey-600;
     margin-top: 2rem;
     @include backgroundTransition;
+    @include textTransition;
 
     a {
       color: $grey-600;
@@ -557,12 +621,12 @@ body {
     button {
       background-image: none;
       text-shadow: none;
-      color: $backgroundColour;
+      // color: $backgroundColour;
       &:hover,
       &:active,
       &:focus {
         background-image: none;
-        color: $backgroundColour;
+        // color: $backgroundColour;
       }
     }
     hr {
