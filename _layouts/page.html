@@ -10,6 +10,11 @@ layout: default
 
     {{ content }}
 
+    <!-- Include code for all the hard-coded bits -->
+    {% if page.title == "Collaborate" %}{% include end-collaborate.html %}{% endif %}
+    {% if page.title == "Adapt" %}{% include end-adapt.html %}{% endif %}
+    {% if page.title == "Participate" %}{% include end-participate.html %}{% endif %}
+
   </article>
 
 </main>

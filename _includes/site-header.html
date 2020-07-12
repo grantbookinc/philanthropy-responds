@@ -24,8 +24,18 @@
     <!-- Homepage Feature (Hero) -->
     {% if page.title == "Home" %}
         <div class="feature" {% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
-        <div class="container  typeset">
+        <div class="home-jumbotron container  typeset">
             {{ feature_text | markdownify }}
+
+            <div class="hero-cta">
+                <a class="button" href="/collaborate/" aria-label="View the Data Visualizations">
+                    See the Data &#8594;
+                </a>
+
+                <a class="button--white" href="/adapt/" aria-label="View the Guiding Principles">
+                    Guiding Principles &#8594;
+                </a>
+            </div>
         </div>
         </div>
 

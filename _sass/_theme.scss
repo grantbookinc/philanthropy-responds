@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
 // This helps robots crawl this page.
 h1 {
   font-weight: 200;
-  color: $white;
+  color: $ruby;
 }
 
 // H2 is the primary heading for text within the page content
@@ -108,7 +108,7 @@ body {
     margin-top: -5rem;
     padding-top: 5rem;
     padding-bottom: 4rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 3rem;
     text-align: center;
     background: $featureBackgroundColour;
     background-size: cover;
@@ -148,6 +148,31 @@ body {
 
         h5, h6 {
           color: transparentize($white, .2);
+        }
+      }
+    }
+
+    // This is the partly-white transparent bit behind the CTA in the homepage hero
+    .home-jumbotron {
+      padding: 2rem 2rem 1rem;
+      margin-top: 4rem;
+      background: transparentize($white, 0.4);
+      border: 1px solid $lake;
+
+      h1 {
+        font-weight: 400;
+        color: $grey-500;
+      }
+
+      .hero-cta {
+        display: block;
+
+        .button {
+          margin-right: 1rem;
+
+          &:last-of-type {
+            margin-right: 0;
+          }
         }
       }
     }
@@ -280,7 +305,7 @@ body {
     @include flex-direction(column);
     @include flex(1, 0, auto);
     @include justify-content(flex-start);
-    margin-bottom: 1.6rem;
+    margin-bottom: 3rem;
     @include breakpoint(break-1) {
       @include justify-content(center);
       @include flex-direction(row);
@@ -477,28 +502,30 @@ body {
     background: $accentColour;
     transition: box-shadow .1s;
     will-change: box-shadow;
-    box-shadow: inset 0 0 0 2rem transparent;
+    box-shadow: 0 0 0 2rem transparent;
     &:hover {
       box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
+      color: $white;
     }
     &:active,
     &:focus {
+      color: $white;
       box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
     }
   }
 
   .button--white {
     @extend button;
-    background: transparent;
-    color: $white;
-    border: 1px solid $white;
+    background: $white;
+    color: $lake;
+    border: 1px solid $lake;
     @include backgroundTransition;
     @include textTransition;
 
     &:hover, &:focus {
       box-shadow: none;
-      background: $white;
-      color: $grey-600;
+      background: $lake;
+      color: $white;
     }
   }
 
@@ -614,6 +641,10 @@ body {
   
   // Sassline overrides
   .typeset {
+    i {
+      font-style: inherit;
+    }
+
     a > code {
       text-shadow: none;
     }

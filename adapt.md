@@ -54,3 +54,7 @@ community-led infrastructure for a more inclusive and liveable post-recovery Can
 - Provide emergency funding AND take the long view;
 - Remain open to addressing the gaps and needs that will emerge post-crisis in periods of stabilization, recovery, and rejuvenation;
 - Invest time and energy to notice, make visible, and share with others new ways and norms of approaching our work that result in deep change and can be scaled up toward equity and justice in the months and years to come.
+
+## More CoVid-19 Response Resources
+
+Find robust response resources from the partners behind the Philanthropy Responds Initiative:
