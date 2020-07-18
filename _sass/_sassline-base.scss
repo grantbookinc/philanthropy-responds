@@ -685,17 +685,18 @@ a {
 
   // Heading level 4.
   h4, .delta {
-    @include sassline(delta, $headingtype, 2, 0, all);
+    @include sassline(delta, $headingtype, 2, 1, all);
   }
 
   // Heading level 5.
   h5, .epsilon {
-    @include sassline(epsilon, $headingtype, 3, 0, all);
+    @include sassline(epsilon, $headingtype, 3, 1, all);
   }
 
   // Heading level 6.
   h6, .zeta {
-    @include sassline(zeta, $headingtype, 4, 0, all);
+    @include sassline(zeta, $headingtype, 3, 1, all);
+    margin-bottom: 1rem;
   }
 
   // Lists.

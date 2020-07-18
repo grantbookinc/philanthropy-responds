@@ -7,7 +7,6 @@ h1, h2, h3, h4, h5, h6 {
 // This helps robots crawl this page.
 h1 {
   font-weight: 200;
-  color: $ruby;
 }
 
 // H2 is the primary heading for text within the page content
@@ -98,7 +97,16 @@ body {
 
     &--transparent {
       @extend .navbar;
-      background-color: rgba(255,255,255,0.7);
+      background-color: rgba(255,255,255,0.75);
+      border-bottom: 1px solid $ruby;
+
+      &--current {
+        a {
+          color: $ruby;
+          font-weight: 600;
+          border-bottom: 4px solid $ruby;
+        }
+      }
     }
   }
 
@@ -152,16 +160,15 @@ body {
       }
     }
 
-    // This is the partly-white transparent bit behind the CTA in the homepage hero
+    // This is the partly-white transparent box in the homepage hero
     .home-jumbotron {
       padding: 2rem 2rem 1rem;
       margin-top: 4rem;
-      background: transparentize($white, 0.4);
-      border: 1px solid $lake;
+      background: transparentize($white, 0.1);
 
       h1 {
-        font-weight: 400;
-        color: $grey-500;
+        font-weight: 600;
+        // color: $white;
       }
 
       .hero-cta {
@@ -197,7 +204,7 @@ body {
       text-transform: uppercase;
       letter-spacing: 0.25pt;
       color: $navColour;
-      @include textTransition;
+      @include transition-300;
 
       &:hover {
         color: $navHoverColour;
@@ -257,7 +264,7 @@ body {
     color: $footerColour;
     a {
       color: $footerLinkColour;
-      @include textTransition;
+      @include transition-300;
       &:hover {
         color: $footerLinkHoverColour;
       }
@@ -502,49 +509,57 @@ body {
     background: $accentColour;
     transition: box-shadow .1s;
     will-change: box-shadow;
+    box-sizing: border-box;
     box-shadow: 0 0 0 2rem transparent;
+    @include transition-300;
     &:hover {
-      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
-      color: $white;
+      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
+      color: $backgroundColour;
     }
     &:active,
     &:focus {
-      color: $white;
-      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.25);
+      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
+      color: $backgroundColour;
     }
   }
 
-  .button--white {
+  .button--hero {
     @extend button;
-    background: $white;
-    color: $lake;
-    border: 1px solid $lake;
-    @include backgroundTransition;
-    @include textTransition;
+    color: $grey-600;
+    background: transparent;
+    border: 1px solid $grey-600;
+    @include transition-300;
 
     &:hover, &:focus {
       box-shadow: none;
-      background: $lake;
+      background: $grey-600;
       color: $white;
+    }
+  }
+
+  .button--transparent {
+    @extend button;
+    background: transparent;
+    color: $white;
+    border: 1px $white solid;
+    @include transition-300;
+
+    &:hover, &:focus {
+      box-shadow: none;
+      background: $white;
+      color: $grey-600;
     }
   }
 
   .button--footer {
     @extend button;
     background: $canary;
-    color: $grey-600;
+    color: $grey-600 !important;
     margin-top: 2rem;
-    @include backgroundTransition;
-    @include textTransition;
-
-    a {
-      color: $grey-600;
-    }
+    @include transition-300;
 
     &:hover {
-      box-shadow: none;
-      background: $lake;
-      color: $white;
+      color: $grey-600;
     }
   }
   
@@ -679,5 +694,42 @@ body {
       white-space: pre;
       overflow-x: scroll;
     }
+
+    h6 {
+      margin-bottom: -0.25rem;
+    }
   }
   
+
+  // Custom Component Styling ----------------------------
+
+  // Organizational COVID Resources Cards (Adapt Page)
+  .org-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    text-align: center;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      box-sizing: border-box;
+      border-top: 1px $grey-100 solid;
+      border-left: 1px $grey-100 solid;
+      border-right: 1px $grey-100 solid;
+    }
+
+    .org-summary {
+      background: $grey-100;
+      padding: 2rem;
+      text-align: left;
+    }
+
+    .button {
+      margin-bottom: 0;
+      text-align: center;
+      border: 1px $ruby solid;
+      position: relative;
+      z-index: 2;
+    }
+  }

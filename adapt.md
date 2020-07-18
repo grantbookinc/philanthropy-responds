@@ -7,11 +7,27 @@ feature_image: ../assets/img/hero-adapt.png
 feature_text: |
   ###### ADAPT
   # Learn how to adapt your giving strategy
+intro_text: |
+  ## Peer Learning
+  Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
+org_resources:
+- name: Philanthropic Foundations of Canada
+  logo: ../assets/img/pfc-logo.png
+  summary: Philanthropic Foundations of Canada provides resources... [summary here]
+  url: #
+- name: Community Foundations of Canada
+  logo: ../assets/img/cfc-logo.png
+  summary: Community Foundations of Canada provides resources... [summary here]
+  url: #
+- name: Environment Funders of Canada
+  logo: ../assets/img/efc-logo.png
+  summary: Envronment Funders Canada provides resources... [summary here]
+  url: #
+- name: The Circle
+  logo: ../assets/img/tc-logo.png
+  summary: The Circle provides resources... [summary here]
+  url: #
 ---
-
-## Peer Learning
-
-Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
 
 ## Four Guiding Principles
 
@@ -55,6 +71,6 @@ community-led infrastructure for a more inclusive and liveable post-recovery Can
 - Remain open to addressing the gaps and needs that will emerge post-crisis in periods of stabilization, recovery, and rejuvenation;
 - Invest time and energy to notice, make visible, and share with others new ways and norms of approaching our work that result in deep change and can be scaled up toward equity and justice in the months and years to come.
 
-## More CoVid-19 Response Resources
+## More COVID-19 Response Resources
 
 Find robust response resources from the partners behind the Philanthropy Responds Initiative:

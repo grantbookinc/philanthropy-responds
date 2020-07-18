@@ -119,12 +119,12 @@ $focusColour: $grape !default;
 $captionColour: $grey-400 !default;
 
 $navColour: $grey-500 !default;
-$navHoverColour: $lake !default;
+$navHoverColour: $grey-500 !default;
 $navActiveColour: $lake !default;
 
-$footerColour: darken($white, 15) !default;
+$footerColour: darken($white, 18) !default;
 $footerLinkColour: $canary !default;
-$footerLinkHoverColour: $lake !default;
+$footerLinkHoverColour: $white !default;
 
 // Typography
 $bodytype: (
@@ -158,18 +158,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Transitions ---------------
-@mixin textTransition {
-    -webkit-transition: color 300ms ease-out;
-    -moz-transition: color 300ms ease-out;
-    -ms-transition: color 300ms ease-out;
-    -o-transition: color 300ms ease-out;
-    transition: color 300ms ease-out;
-}
-
-@mixin backgroundTransition {
-    -webkit-transition: background-color 300ms ease-out;
-    -moz-transition: background-color 300ms ease-out;
-    -ms-transition: background-color 300ms ease-out;
-    -o-transition: background-color 300ms ease-out;
-    transition: background-color 300ms ease-out;
+@mixin transition-300 {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
 }

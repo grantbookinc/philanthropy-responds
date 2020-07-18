@@ -1,1 +1,17 @@
-<b>Here's where the resources cards for this page will go.</b>
+<div class="row">
+
+  {% for org in page.org_resources %}
+  <div class="col-md-6">
+    <div class="org-card">
+      <img src="{{ org.logo }}" alt="{{ org.name }} Logo" />
+      <div class="org-summary">
+        <p>{{ org.summary }}</p>
+      </div>
+      <a class="button" href="{{ org.url }}">
+        View Resources &#8594;
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>

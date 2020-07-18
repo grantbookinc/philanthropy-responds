@@ -8,9 +8,12 @@ layout: default
 
   <article class="article  article--page  content  typeset">
 
+    <!-- Hard-Coded Components Before Content -->
+    {% if page.title == "Adapt" %}{% include start-adapt.html %}{% endif %}
+
     {{ content }}
 
-    <!-- Include code for all the hard-coded bits -->
+    <!-- Hard-Coded Components After Content -->
     {% if page.title == "Collaborate" %}{% include end-collaborate.html %}{% endif %}
     {% if page.title == "Adapt" %}{% include end-adapt.html %}{% endif %}
     {% if page.title == "Participate" %}{% include end-participate.html %}{% endif %}
