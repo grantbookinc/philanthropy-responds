@@ -44,37 +44,45 @@ exclude:
 plugins:
 - jekyll-remote-theme
 - jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
 - jekyll-seo-tag
 - jekyll-redirect-from
 - jekyll-default-layout
+- jekyll-feed
 - jekyll-commonmark
 - jemoji
+paginate: 2
+paginate_path: blog/page:num
+jekyll-mentions: https://twitter.com
+twitter:
+  username: magsonfire
+author: PhilanthropyResponds
+social:
+  name: Philanthropy Responds
+  links: 
 sass:
   style: compressed
 permalink: pretty
 excerpt_separator: "<!-- more -->"
 encoding: utf-8
-lang: en-UK
+lang: en-CA
 logo: "/assets/brand/Logo.svg"
 description: A website for Canadian philanthropy.
 url: https://philanthropyresponds.ca
 baseurl: 
-avatarurl: "/assets/brand/lotus@32.png"
 repo: https://github.com/grantbookinc/philanthropy-responds
 email: hey@grantbook.org
 css_inline: true
 favicons:
-- '16': "/assets/brand/lotus@16px.png"
-- '32': "/assets/brand/lotus@32px.png"
-- '96': "/assets/brand/lotus@96px.png"
-- '120': "/assets/brand/lotus@120px.png"
-- '144': "/assets/brand/lotus@144px.png"
-- '180': "/assets/brand/lotus@180px.png"
-- '512': "/assets/brand/lotus@512px.png"
-- '1024': "/assets/brand/lotus@1024px.png"
-manifest:
-- theme_color: "#e33d43"
-- background_color: "#e33d43"
+  '16': "/assets/brand/lotus@16px.png"
+  '32': "/assets/brand/lotus@32px.png"
+  '96': "/assets/brand/lotus@96px.png"
+  '120': "/assets/brand/lotus@120px.png"
+  '144': "/assets/brand/lotus@144px.png"
+  '180': "/assets/brand/lotus@180px.png"
+  '512': "/assets/brand/lotus@512px.png"
+  '1024': "/assets/brand/lotus@1024px.png"
 navigation_header:
 - title: Home
   url: "/"
@@ -84,3 +92,6 @@ navigation_header:
   url: "/adapt/"
 - title: Participate
   url: "/participate/"
+navigation_footer:
+- title: Contribute your data
+  url: "#"
