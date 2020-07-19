@@ -1,9 +1,9 @@
 ---
 title: Adapt
-date: 2020-07-01 16:10:00 Z
+date: 2020-07-01 12:10:00 -04:00
 layout: page
 excerpt: How philanthropists are adapting.
-feature_image: ../assets/img/hero-adapt.png
+feature_image: "../assets/img/hero-adapt.png"
 feature_text: |
   ###### ADAPT
   # Learn how to adapt your giving strategy
@@ -12,41 +12,53 @@ intro_text: |
   Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
 quotes:
 - funder: MAKEWAY
-  quote: The COVID crisis has illuminated  issues of social, cultural, and income inequality, to name just a few. This is not an issue that philanthropy alone can address, and certainly not in its current state of operation.
-  logo: ../assets/img/funder-quotes/makeway.png
+  quote: The COVID crisis has illuminated  issues of social, cultural, and income
+    inequality, to name just a few. This is not an issue that philanthropy alone can
+    address, and certainly not in its current state of operation.
+  logo: "../assets/img/funder-quotes/makeway.png"
   location: Toronto, ON
 - funder: Toronto Foundation
-  quote: Offer completely unrestricted grants, with little to no 'hoops to jump through', and very minimal reporting requirements. Everyone is overworked and overtaxed during this time.
-  logo: ../assets/img/funder-quotes/torontofdn.jpg
+  quote: Offer completely unrestricted grants, with little to no 'hoops to jump through',
+    and very minimal reporting requirements. Everyone is overworked and overtaxed
+    during this time.
+  logo: "../assets/img/funder-quotes/torontofdn.jpg"
   location: Toronto, ON
 - funder: The Jimmy Pratt Foundation
-  quote: There are a number of groups duplicating services in the communities. Foundations need to act as leaders and nourish environments that foster collaboration to ensure that both our dollars and the public funds stretch as far as they can.
-  logo: ../assets/img/funder-quotes/jimmy-pratt.png
+  quote: There are a number of groups duplicating services in the communities. Foundations
+    need to act as leaders and nourish environments that foster collaboration to ensure
+    that both our dollars and the public funds stretch as far as they can.
+  logo: "../assets/img/funder-quotes/jimmy-pratt.png"
   location: St. John's, NL
 - funder: PwC Canada Foundation
-  quote: There is a critical need to help Boards and Leadership teams navigate cash flow, liquidity and government announcements.
-  logo: ../assets/img/funder-quotes/pwc-logo.svg
+  quote: There is a critical need to help Boards and Leadership teams navigate cash
+    flow, liquidity and government announcements.
+  logo: "../assets/img/funder-quotes/pwc-logo.svg"
   location: Toronto, ON
 - funder: The Sitka Foundation
-  quote: Being a family foundation with a small Board, we have always been nimble and responsive. Now more than ever we are realizing the benefit of people able to convene and make decisions quickly with minimal processes.
-  logo: ../assets/img/funder-quotes/sitka.png
+  quote: Being a family foundation with a small Board, we have always been nimble
+    and responsive. Now more than ever we are realizing the benefit of people able
+    to convene and make decisions quickly with minimal processes.
+  logo: "../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
 org_resources:
 - name: Philanthropic Foundations of Canada
-  logo: ../assets/img/pfc-logo.png
+  logo: "../assets/img/pfc-logo.png"
   summary: Philanthropic Foundations of Canada provides resources... [summary here]
   url: https://pfc.ca/covid19/
 - name: Community Foundations of Canada
-  logo: ../assets/img/cfc-logo.png
+  logo: "../assets/img/cfc-logo.png"
   summary: Community Foundations of Canada provides resources... [summary here]
   url: https://www.communityfoundations.ca/covid19/
 - name: Environment Funders of Canada
-  logo: ../assets/img/efc-logo.png
+  logo: "../assets/img/efc-logo.png"
   summary: Envronment Funders Canada provides resources... [summary here]
   url: https://environmentfunders.ca/
 - name: The Circle
-  logo: ../assets/img/tc-logo.png
-  summary: In response to the global pandemic, The Circle has been working alongside our partners in the non-profit and philanthropic sectors to develop guiding principles to assist foundations in supporting grantees carry on their important work in communities throughout and after the crisis. 
+  logo: "../assets/img/tc-logo.png"
+  summary: In response to the global pandemic, The Circle has been working alongside
+    our partners in the non-profit and philanthropic sectors to develop guiding principles
+    to assist foundations in supporting grantees carry on their important work in
+    communities throughout and after the crisis.
   url: https://www.the-circle.ca/principles-of-care.html
 ---
 

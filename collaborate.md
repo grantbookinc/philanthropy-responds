@@ -1,9 +1,9 @@
 ---
 title: Collaborate
-date: 2020-07-01 14:56:00 Z
+date: 2020-07-01 10:56:00 -04:00
 layout: page
 excerpt: How philanthropists are adapting.
-feature_image: ../assets/img/hero-collaborate.png
+feature_image: "../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABORATE
   # Find ways to multiply your impact

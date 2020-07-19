@@ -1,6 +1,4 @@
 ---
-# Rejigged config
-
 # Set the Theme
 # theme: alembic-jekyll-theme
 remote_theme: daviddarnes/alembic

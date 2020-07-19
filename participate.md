@@ -1,9 +1,9 @@
 ---
 title: Participate
-date: 2020-07-01 16:10:00 Z
+date: 2020-07-01 12:10:00 -04:00
 layout: page
 excerpt: How philanthropists are adapting.
-feature_image: ../assets/img/hero-participate.png
+feature_image: "../assets/img/hero-participate.png"
 feature_text: |
   ###### PARTICIPATE
   # Add your story to support this initiative
