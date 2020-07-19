@@ -30,7 +30,7 @@ h3, h4 {
 }
 
 h5, h6 {
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   color: $grey-500;
 }
@@ -88,7 +88,7 @@ body {
     @include flexbox;
     @include flex-direction(row);
     @include justify-content(space-between);
-    border-bottom: 1px solid $navActiveColour;
+    border-bottom: 1px solid $lake;
     background-color: $white;
 
     .container {
@@ -97,7 +97,7 @@ body {
 
     &--transparent {
       @extend .navbar;
-      background-color: rgba(255,255,255,0.75);
+      background-color: rgba(255,255,255,0.9);
     }
   }
 
@@ -113,7 +113,7 @@ body {
     background-position: center;
     .container {
       min-height: 35vh;
-      max-width: 80%;
+      max-width: 70%;
       @include flex-direction(column);
       @include justify-content(center);
     }
@@ -154,11 +154,15 @@ body {
     .home-jumbotron {
       padding: 2rem 2rem 1rem;
       margin-top: 4rem;
-      background: transparentize($white, 0.1);
+      background: transparentize($lake, 0.15);
 
       h1 {
         font-weight: 600;
-        // color: $white;
+        color: $white;
+      }
+
+      p {
+        color: $white;
       }
 
       .hero-cta {
@@ -193,11 +197,11 @@ body {
       height: 3rem;
       text-transform: uppercase;
       letter-spacing: 0.25pt;
-      color: $navColour;
+      color: $grey-500;
       @include transition-300;
 
       &:hover {
-        color: $navHoverColour;
+        color: $lake;
       }
     }
     &--social a {
@@ -378,9 +382,9 @@ body {
     }
     &--current {
       a {
-        color: $navActiveColour;
+        color: $lake;
         font-weight: 600;
-        border-bottom: 4px solid $navActiveColour;
+        border-bottom: 4px solid $lake;
       }
     }
   }
@@ -515,15 +519,15 @@ body {
 
   .button--hero {
     @extend button;
-    color: $lake;
+    color: $white;
     background: transparent;
-    border: 1px solid $lake;
+    border: 1px solid $white;
     @include transition-300;
 
     &:hover, &:focus {
       box-shadow: none;
-      background: $lake;
-      color: $white;
+      background: $white;
+      color: $lake;
     }
   }
 
@@ -731,13 +735,12 @@ body {
     position: relative;
 
     .quotes-carousel {
-      padding-top: 2rem;
       padding-bottom: 2rem;
 
       .slide {
-        min-height: 300px;
+        min-height: 280px;
         background-image: url('../assets/img/quotes-lake-transparent.png');
-        background-size: 300px;
+        background-size: 250px;
         background-repeat: no-repeat;
         background-position: center 0;
         text-align: center;
@@ -748,11 +751,12 @@ body {
           display: flex;
           align-items: center;
           flex: 1 0 auto;
-          margin: 0 auto 3rem;
+          margin: 0 auto;
           font-size: 1.25rem;
           line-height: 1.25;
           font-weight: 200;
           color: $grey-500;
+          width: 70%;
           max-width: 500px;
         }
 
@@ -795,7 +799,7 @@ body {
       position: absolute;
       top: 40%;
       padding: .4rem .8rem;
-      background: $lake;
+      background: $mint;
     }
 
     .prev {
