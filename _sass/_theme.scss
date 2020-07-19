@@ -113,7 +113,7 @@ body {
     background-position: center;
     .container {
       min-height: 35vh;
-      max-width: 60%;
+      max-width: 80%;
       @include flex-direction(column);
       @include justify-content(center);
     }
@@ -317,7 +317,7 @@ body {
   
   .content {
     @include breakpoint(break-1) {
-      width: 62%;
+      width: 80%;
     }
   }
   
@@ -541,7 +541,7 @@ body {
     }
   }
 
-  .button--footer {
+  .button--canary {
     @extend button;
     background: $canary;
     color: $grey-600 !important;
@@ -735,7 +735,7 @@ body {
       padding-bottom: 2rem;
 
       .slide {
-        min-height: 400px;
+        min-height: 300px;
         background-image: url('../assets/img/quotes-lake-transparent.png');
         background-size: 300px;
         background-repeat: no-repeat;
@@ -804,5 +804,19 @@ body {
 
     .next {
       right: 0;
+    }
+  }
+
+  // Open Data Banner (Collaborate)
+  .data-banner {
+    background: $grape;
+    background-image: url(../assets/img/download-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 85% center;
+    padding: 2rem;
+
+    h3, p {
+      color: $white;
     }
   }

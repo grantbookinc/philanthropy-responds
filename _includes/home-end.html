@@ -1,0 +1,20 @@
+<!-- If there are quotes on this page -->
+{% if page.quotes %}
+<h3>Lessons Learned</h3>
+{% include quotes-carousel.html %}
+{% endif %}
+
+<div style="display: flex; align-items: center; flex-wrap: wrap;">
+  <div style="flex: 0 0 100%;">
+    {% include data-1-overview.html %}
+  </div>
+  <div style="flex: 0 0 100%;">
+    {% include data-2-funding.html %}
+  </div>
+</div>
+
+<div style="text-align: right;">
+  <a class="button" href="/collaborate/">
+    View More Data &#8594;
+  </a>
+</div>

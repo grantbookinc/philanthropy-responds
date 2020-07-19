@@ -10,7 +10,7 @@ feature_text: |
 intro_text: |
   ## Peer Learning
   Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
-lessons_learned:
+quotes:
 - funder: MAKEWAY
   quote: The COVID crisis has illuminated  issues of social, cultural, and income inequality, to name just a few. This is not an issue that philanthropy alone can address, and certainly not in its current state of operation.
   logo: ../assets/img/funder-quotes/makeway.png
@@ -50,7 +50,7 @@ org_resources:
   url: https://www.the-circle.ca/principles-of-care.html
 ---
 
-## Four Guiding Principles
+## Five Guiding Principles
 
 Philanthropic Foundations Canada, Environment Funders Canada, Community Foundations of Canada, and The Circle on Philanthropy and Aboriginal Peoples in Canada highlights four guiding principles to assist foundations in supporting their grantees.
 

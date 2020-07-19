@@ -1,20 +1,18 @@
-<h3 style="text-align: center;">What We've Learned</h3>
-
 <div class="quotes-carousel-wrapper">
   <div class="quotes-carousel">
 
-    {% for lesson in page.lessons_learned %}
+    {% for quote in page.quotes %}
     <div class="slide">
       <div class="quote">
-        {{ lesson.quote }}
+        {{ quote.quote }}
       </div>
       <div class="source">
         <div class="logo">
-          <img src="{{ lesson.logo }}" alt="{{ lesson.funder }} logo" />
+          <img src="{{ quote.logo }}" alt="{{ quote.funder }} logo" />
         </div>
         <div class="name">
-          <h5>{{ lesson.funder }}</h5>
-          <h6>{{ lesson.location }}</h6>
+          <h5>{{ quote.funder }}</h5>
+          <h6>{{ quote.location }}</h6>
         </div>
       </div>
     </div>
