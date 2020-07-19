@@ -1,14 +1,39 @@
-<h3>Quotes carousel page</h3>
+<h3 style="text-align: center;">What We've Learned</h3>
 
-<div class="siema">
-  <div>Hi, I'm slide 1</div>
-  <div>Hi, I'm slide 2</div>
-  <div>Hi, I'm slide 3</div>
-  <div>Hi, I'm slide 4</div>
+<div class="quotes-carousel-wrapper">
+  <div class="quotes-carousel">
+
+    {% for lesson in page.lessons_learned %}
+    <div class="slide">
+      <div class="quote">
+        {{ lesson.quote }}
+      </div>
+      <div class="source">
+        <div class="logo">
+          <img src="{{ lesson.logo }}" alt="{{ lesson.funder }} logo" />
+        </div>
+        <div class="name">
+          <h5>{{ lesson.funder }}</h5>
+          <h6>{{ lesson.location }}</h6>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <!-- Buttons to Trigger -->
+  <button class="prev">&#x2039; Prev</button>
+  <button class="next">Next &#x203A;</button>
 </div>
 
 <script>
-  new Siema();
-  
-  console.log("Hello?");
+  const carousel = new Siema({
+    selector: '.quotes-carousel',
+    easing: 'ease-out'
+  });
+
+  // Adding buttons for before & next triggers
+  document.querySelector('.prev').addEventListener('click', () => carousel.prev());
+  document.querySelector('.next').addEventListener('click', () => carousel.next());
 </script>
