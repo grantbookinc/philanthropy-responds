@@ -1,0 +1,52 @@
+
+<header class="header">
+    {% if page.title == "Home" %}
+    <div class="navbar--transparent">
+    {% else %}
+    <div class="navbar">
+    {% endif %}
+        <div class="container">
+            {% if site.logo %}{% include site-logo.html %}{% endif %}
+
+            {% include nav-header.html %}
+        </div>
+    </div>
+
+    {% assign feature_text = page.feature_text %}
+    {% assign feature_image = page.feature_image %}
+    {% if page.collectionpage %}
+    {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+    {% assign feature_text = collectiondata.feature_text %}
+    {% assign feature_image = collectiondata.feature_image %}
+    {% endif %}
+
+    {% if feature_text or feature_image %}
+    <!-- Homepage Feature (Hero) -->
+    {% if page.title == "Home" %}
+        <div class="feature" {% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
+        <div class="home-jumbotron container  typeset">
+            {{ feature_text | markdownify }}
+
+            <div class="hero-cta">
+                <a class="button" href="#covid-19-response-dashboard" aria-label="View the Data Visualizations">
+                    See the Data &#8594;
+                </a>
+
+                <a class="button--hero" href="/adapt/#five-guiding-principles" aria-label="View the Guiding Principles">
+                    Guiding Principles &#8594;
+                </a>
+            </div>
+        </div>
+        </div>
+
+    {% else %}
+    <!-- Content Page Feature (Banner with Blue Overlay) -->
+        <div class="feature--banner" {% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
+        <div class="container   typeset">
+            {{ feature_text | markdownify }}
+        </div>
+        </div>
+    {% endif %}
+
+    {% endif %}
+</header>

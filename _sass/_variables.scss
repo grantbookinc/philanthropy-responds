@@ -1,0 +1,60 @@
+// Philanthropy Responds Branding
+// Primary Colors
+$ruby:            #E33D43;
+$lake:            #0090AF;
+$canary:          #FAD739;
+$mint:            #59CD90;
+$grape:           #152D6D;
+
+// Secondary Variants
+$ruby-faded:      #F19EA1;
+$lake-faded:      #80C7D7;
+$canary-faded:    #FDEFB0;
+$mint-faded:      #BDEBD3;
+$grape-faded:     #7381A7;
+
+// Greys
+$grey-600:        darken($grey-500, 10);
+$grey-500:        #2E3738;
+$grey-400:        #72959D;
+$grey-300:        #ABC2C7;
+$grey-200:        #C1D3D7;
+$grey-100:        #EAEFF0;
+$white:           #FFFFFF;
+
+// Typography
+$bodytype: (
+  font-family: "'Raleway', serif",
+  light: 300,
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75
+  line-height: 1.4
+) !default;
+
+$headingtype: (
+  font-family: '"Raleway", serif',
+  light: 300,
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75
+  line-height: 1.25
+) !default;
+
+// Font import, if you're using a non-standard web font
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap');
+
+// Background colours
+$backgroundColour: $white !default;
+$codeBackgroundColour: $canary-faded !default;
+$featureBackgroundColour: $mint-faded !default;
+$accentColour: $ruby !default;
+
+// Text colours
+$headingColour: $ruby !default;
+$bodyColour: $grey-600 !default;
+$linkColour: $lake !default;
+$hoverColour: $ruby !default;
+$focusColour: $grape !default;
+$captionColour: $grey-400 !default;

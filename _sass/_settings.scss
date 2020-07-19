@@ -1,0 +1,161 @@
+// Philanthropy Responds --------------------------------------
+// Primary Colors
+$ruby:            #e33d43;
+$lake:            #0090AF;
+$canary:          #FAD739;
+$mint:            #59CD90;
+$grape:           #152D6D;
+
+// Secondary Variants
+$ruby-faded:      #F19EA1;
+$lake-faded:      #80C7D7;
+$canary-faded:    #FDEFB0;
+$mint-faded:      #BDEBD3;
+$grape-faded:     #7381A7;
+
+// Greys
+$white:           #FFFFFF !default;
+$grey-100:        #EAEFF0;
+$grey-200:        #C1D3D7;
+$grey-300:        #ABC2C7;
+$grey-400:        #72959D;
+$grey-500:        #2E3738;
+$grey-600:        darken($grey-500, 10%);
+
+
+// Sassy Layout Shortcut Settings --------------------------------------
+
+// Sass Color Map
+// This map allows us to create variants to quick-apply layout features
+$theme-colors: (
+    "ruby": $ruby,
+    "lake": $lake,
+    "canary": $canary,
+    "mint": $mint,
+    "grape": $grape,
+    "white": $white,
+    "light": $grey-100,
+    "dark": $grey-500,
+    "black": $grey-600
+);
+
+// Sass Color Variant Classes
+// Use this map to quickly apply variants to elements in HTML
+// (i.e. without creating custom CSS classes)
+@each $name, $color in $theme-colors {
+    .bg-#{$name} {
+        background-color: #{$color} !important;
+    }
+
+    .text-#{$name} {
+        color: #{$color} !important;
+    }
+
+    .border-#{$name} {
+        border-color: #{$color} !important;
+    }
+};
+
+// Direction map - a map of shortcuts for four sides of CSS box model
+$directions: (
+    "t": "top",
+    "b": "bottom",
+    "l": "left",
+    "r": "right"
+);
+
+// Layout Shortcuts
+// These classes allow for quick margin & padding mods in HTML
+@each $x, $side in $directions {
+    .p#{$x}-1 {
+        padding-#{$side}: 1rem;
+    }
+    .p#{$x}2 {
+        padding-#{$side}: 2rem;
+    }
+    .p#{$x}3 {
+        padding-#{$side}: 3rem;
+    }
+    .p#{$x}4 {
+        padding-#{$side}: 4rem;
+    }
+
+    .m#{$x}1 {
+        margin-#{$side}: 1rem;
+    }.m#{$x}2 {
+        margin-#{$side}: 2rem;
+    }
+    .m#{$x}3 {
+        margin-#{$side}: 3rem;
+    }
+    .m#{$x}4 {
+        margin-#{$side}: 4rem;
+    }
+};
+
+
+// Alembic Theme Settings --------------------------------------
+// These are variables used in the Alembic base theme
+// ! DO NOT RENAME !
+
+// Background colours
+$backgroundColour: $white !default;
+$codeBackgroundColour: $canary-faded !default;
+$featureBackgroundColour: $grey-300 !default;
+$accentColour: $ruby !default;
+
+// Text colours
+$headingColour: $ruby !default;
+$bodyColour: $grey-600 !default;
+$linkColour: $lake !default;
+$hoverColour: $ruby !default;
+$focusColour: $grape !default;
+$captionColour: $grey-400 !default;
+
+$navColour: $grey-500 !default;
+$navHoverColour: $grey-500 !default;
+$navActiveColour: $lake !default;
+
+$footerColour: darken($white, 18) !default;
+$footerLinkColour: $canary !default;
+$footerLinkHoverColour: $white !default;
+
+// Typography
+$bodytype: (
+  font-family: "'Raleway', serif",
+  light: 300,
+  regular: 400,
+  bold: 700,
+  italic: italic,
+  cap-height: 0.75,
+  line-height: 1.4
+) !default;
+
+$headingtype: (
+  font-family: '"Raleway", serif',
+  light: 300,
+  regular: 400,
+  bold: 700,
+  cap-height: 0.75,
+  line-height: 1.25
+) !default;
+
+$monospacetype: (
+  font-family: "Menlo, monospace",
+  regular: 400,
+  cap-height: 0.68
+) !default;
+
+// Disabling Weird Ligatures ---------------
+h1, h2, h3, h4, h5, h6 {
+    font-feature-settings: "dlig" 0 !important;
+}
+
+// Transitions ---------------
+@mixin transition-300 {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}

@@ -1,0 +1,86 @@
+---
+title: Philanthropy Responds
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: Posts
+    feature_text: 'Welcome to the blog
+
+'
+    feature_image: assets/img/hero.jpeg
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+  values:
+    image: "/assets/brand/lotus@1024px.png"
+remote_theme: daviddarnes/alembic
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- ".jekyll-cache"
+plugins:
+- jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-commonmark
+- jemoji
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: "<!-- more -->"
+encoding: utf-8
+lang: en-UK
+logo: "/assets/brand/Logo.svg"
+description: A website for Canadian philanthropy.
+url: https://philanthropyresponds.ca
+baseurl: 
+avatarurl: "/assets/brand/lotus@32.png"
+repo: https://github.com/grantbookinc/philanthropy-responds
+email: hey@grantbook.org
+css_inline: true
+favicons:
+- '16': "/assets/brand/lotus@16px.png"
+- '32': "/assets/brand/lotus@32px.png"
+- '96': "/assets/brand/lotus@96px.png"
+- '120': "/assets/brand/lotus@120px.png"
+- '144': "/assets/brand/lotus@144px.png"
+- '180': "/assets/brand/lotus@180px.png"
+- '512': "/assets/brand/lotus@512px.png"
+- '1024': "/assets/brand/lotus@1024px.png"
+manifest:
+- theme_color: "#e33d43"
+- background_color: "#e33d43"
+navigation_header:
+- title: Home
+  url: "/"
+- title: Collaborate
+  url: "/collaborate/"
+- title: Adapt
+  url: "/adapt/"
+- title: Participate
+  url: "/participate/"

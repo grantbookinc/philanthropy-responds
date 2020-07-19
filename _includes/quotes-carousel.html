@@ -1,0 +1,37 @@
+<div class="quotes-carousel-wrapper">
+  <div class="quotes-carousel">
+
+    {% for quote in page.quotes %}
+    <div class="slide">
+      <div class="quote">
+        {{ quote.quote }}
+      </div>
+      <div class="source">
+        <div class="logo">
+          <img src="{{ quote.logo }}" alt="{{ quote.funder }} logo" />
+        </div>
+        <div class="name">
+          <h5>{{ quote.funder }}</h5>
+          <h6>{{ quote.location }}</h6>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+  <!-- Buttons to Trigger -->
+  <button class="prev">&#x2039; Prev</button>
+  <button class="next">Next &#x203A;</button>
+</div>
+
+<script>
+  const carousel = new Siema({
+    selector: '.quotes-carousel',
+    easing: 'ease-out'
+  });
+
+  // Adding buttons for before & next triggers
+  document.querySelector('.prev').addEventListener('click', () => carousel.prev());
+  document.querySelector('.next').addEventListener('click', () => carousel.next());
+</script>
