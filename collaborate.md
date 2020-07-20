@@ -1,6 +1,10 @@
 ---
 title: Collaborate
 date: 2020-07-01 10:56:00 -04:00
+collaborator_hub_title: Find Collaborators
+collaborator_hub_blurb: Find other Canadian grantmakers doing valuable work to support
+  communities impacted by COVID-19. This collaborators page is a work in progress
+  and will be made available to all funders that have completed the online survey.
 excerpt: How philanthropists are adapting.
 feature_image: "../assets/img/hero-collaborate.png"
 feature_text: |
