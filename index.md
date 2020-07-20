@@ -1,7 +1,6 @@
 ---
 title: Home
 date: 2020-07-01 10:56:00 -04:00
-layout: page
 feature_text: |
   # Philanthropy Responds
   Learn how Canadian foundations are adapting to support nonprofits during an unprecedented global crisis.
@@ -38,10 +37,9 @@ quotes:
     to convene and make decisions quickly with minimal processes.
   logo: "../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
+layout: page
 ---
 
 ## Welcome
 
-These are the introductory paragraphs. You can edit this text in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum.Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Philanthropy in Canada is undergoing a major shift in response to the COVID-19 pandemic and many funders have adapted to this unprecedented situation and adjusted their support to grantees. Philanthropy Responds is an interactive data mapping tool designed to identify initiatives and encourage collaboration within the Canadian grantmaking community to better serve Canadians impacted by this crisis. By sharing data and providing a platform to engage funders, along with a timely snapshot of activities and critical gaps in funding, Philanthropy Responds is a useful data tool to build knowledge, encourage collaboration and help funders make decisions. 
