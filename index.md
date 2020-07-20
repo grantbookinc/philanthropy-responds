@@ -5,8 +5,6 @@ feature_text: |
   # Philanthropy Responds
   Learn how Canadian foundations are adapting to support nonprofits during an unprecedented global crisis.
 feature_image: assets/img/hero_masks.png
-excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
-cta: true
 quotes:
 - funder: MAKEWAY
   quote: The COVID crisis has illuminated  issues of social, cultural, and income
@@ -37,6 +35,8 @@ quotes:
     to convene and make decisions quickly with minimal processes.
   logo: "../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
+excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
+cta: true
 layout: page
 ---
 
