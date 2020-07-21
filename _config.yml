@@ -29,7 +29,7 @@ defaults:
     path: ''
   values:
     image: "/assets/brand/lotus@1024px.png"
-remote_theme: 
+remote_theme: daviddarnes/alembic
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
