@@ -11,6 +11,10 @@ feature_text: |
   ###### COLLABORATE
   # Find ways to multiply your impact
 layout: page
+open_data: true
+open_data_title: Download These Data
+open_data_leed: These data were collected as part of an open-source data project. You can download and manipulate the data yourself to find your own trends and patterns.
+open_data_button: Get the Data
 ---
 
 ## Giving Dashboard

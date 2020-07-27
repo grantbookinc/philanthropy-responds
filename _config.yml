@@ -6,9 +6,7 @@ collections:
     title: Posts
     output: true
     description: Posts
-    feature_text: 'Welcome to the blog
-
-'
+    feature_text: 'Welcome to the blog'
     feature_image: assets/img/hero.jpeg
   uploads:
     title: Uploads
@@ -84,7 +82,6 @@ navigation_header:
   url: "/adapt/"
 - title: Participate
   url: "/participate/"
-open_data: true
 languages:
 - English
 - Français
