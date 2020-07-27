@@ -1,8 +1,10 @@
 ---
 title: Adapt
 date: 2020-07-01 12:10:00 -04:00
-layout: page
 excerpt: How philanthropists are adapting.
+lang: en
+lang_ref: collaborate
+layout: page
 feature_image: "../assets/img/hero-adapt.png"
 feature_text: |
   ###### ADAPT
