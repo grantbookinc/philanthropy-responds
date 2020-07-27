@@ -3,11 +3,11 @@ title: Home
 date: 2020-07-01 10:56:00 -04:00
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 lang: en
-lang_ref: /
+lang_ref: "/"
 layout: page
 redirect_from:
-  - /
-feature_image: ../../assets/img/hero_masks.png
+- "/"
+feature_image: "../../assets/img/hero_masks.png"
 feature_text: |
   # Philanthropy Responds
   Learn how Canadian foundations are adapting to support nonprofits during an unprecedented global crisis.
@@ -46,21 +46,22 @@ cta:
 - title: Adapt
   leed: Adapt to this changing situation by learning how other funders have pivoted.
   button: Adapt
-  img: ../assets/img/cta-adapt-bg.png
+  img: "../assets/img/cta-adapt-bg.png"
   img_alt: A road sign indicating bends in the road ahead
   flipped: false
   highlighted: false
 - title: Collaborate
   leed: Collaborate with funders on similar projects to multiply your impact.
   button: Collaborate
-  img: ../assets/img/cta-collaborate-bg.png
+  img: "../assets/img/cta-collaborate-bg.png"
   img_alt: A painting of a pair of clasped hands
   flipped: true
   highlighted: false
 - title: Participate
-  leed: Participate in this knowledge-sharing project by adding your story to our data.
+  leed: Participate in this knowledge-sharing project by adding your story to our
+    data.
   button: Participate
-  img: ../assets/img/cta-participate-bg.png
+  img: "../assets/img/cta-participate-bg.png"
   img_alt: A photo of a droplet of water bouncing on a pool
   flipped: false
   highlighted: true
