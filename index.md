@@ -36,7 +36,28 @@ quotes:
   logo: "../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
-cta: true
+cta:
+- title: Adapt
+  leed: Adapt to this changing situation by learning how other funders have pivoted.
+  button: Adapt
+  img: ../assets/img/cta-adapt-bg.png
+  img_alt: A road sign indicating bends in the road ahead
+  flipped: false
+  highlighted: false
+- title: Collaborate
+  leed: Collaborate with funders on similar projects to multiply your impact.
+  button: Collaborate
+  img: ../assets/img/cta-collaborate-bg.png
+  img_alt: A painting of a pair of clasped hands
+  flipped: true
+  highlighted: false
+- title: Participate
+  leed: Participate in this knowledge-sharing project by adding your story to our data.
+  button: Participate
+  img: ../assets/img/cta-participate-bg.png
+  img_alt: A photo of a droplet of water bouncing on a pool
+  flipped: false
+  highlighted: true
 layout: page
 ---
 

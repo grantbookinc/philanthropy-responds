@@ -84,3 +84,7 @@ navigation_header:
   url: "/adapt/"
 - title: Participate
   url: "/participate/"
+open_data: true
+languages:
+- English
+- Français
