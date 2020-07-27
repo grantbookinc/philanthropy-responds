@@ -40,6 +40,7 @@ h5, h6 {
 
 // Structural elements
 body {
+    position: relative;
     background: $backgroundColour;
     color: $bodyColour;
     height: 100%;
@@ -704,6 +705,17 @@ body {
   
 
   // Custom Component Styling ----------------------------
+
+  // Return to Top of Page Link
+  #top {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    padding: 0.4rem 0.8rem;
+    background: $grey-200;
+    color: $grey-500;
+  }
 
   // Organizational COVID Resources Cards (Adapt Page)
   .org-card {

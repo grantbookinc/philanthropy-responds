@@ -90,6 +90,14 @@
   </head>
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    <a id="top" href="#">
+    {% if page.lang == "en" %}
+      Top
+    {% else %}
+      Haut
+    {% endif %}
+    </a>
+
     {% include site-icons.svg %}
 
     {{ content }}

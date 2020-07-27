@@ -17,30 +17,30 @@ quotes:
   quote: The COVID crisis has illuminated  issues of social, cultural, and income
     inequality, to name just a few. This is not an issue that philanthropy alone can
     address, and certainly not in its current state of operation.
-  logo: "../assets/img/funder-quotes/makeway.png"
+  logo: "../../assets/img/funder-quotes/makeway.png"
   location: Toronto, ON
 - funder: Toronto Foundation
   quote: Offer completely unrestricted grants, with little to no 'hoops to jump through',
     and very minimal reporting requirements. Everyone is overworked and overtaxed
     during this time.
-  logo: "../assets/img/funder-quotes/torontofdn.jpg"
+  logo: "../../assets/img/funder-quotes/torontofdn.jpg"
   location: Toronto, ON
 - funder: The Jimmy Pratt Foundation
   quote: There are a number of groups duplicating services in the communities. Foundations
     need to act as leaders and nourish environments that foster collaboration to ensure
     that both our dollars and the public funds stretch as far as they can.
-  logo: "../assets/img/funder-quotes/jimmy-pratt.png"
+  logo: "../../assets/img/funder-quotes/jimmy-pratt.png"
   location: St. John's, NL
 - funder: PwC Canada Foundation
   quote: There is a critical need to help Boards and Leadership teams navigate cash
     flow, liquidity and government announcements.
-  logo: "../assets/img/funder-quotes/pwc-logo.svg"
+  logo: "../../assets/img/funder-quotes/pwc-logo.svg"
   location: Toronto, ON
 - funder: The Sitka Foundation
   quote: Being a family foundation with a small Board, we have always been nimble
     and responsive. Now more than ever we are realizing the benefit of people able
     to convene and make decisions quickly with minimal processes.
-  logo: "../assets/img/funder-quotes/sitka.png"
+  logo: "../../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
 cta:
 - title: Adapt
