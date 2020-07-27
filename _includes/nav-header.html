@@ -2,15 +2,17 @@
 <nav class="nav  nav--header">
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
-
-      {% if item.url contains '://' %}
-        {% assign url = item.url %}
+      {% if page.lang == "en" %}
+        {% assign url-en = item.url | prepend: "/en" %}
+        {% assign url-final = url-en | relative_url %}
       {% else %}
-        {% assign url = item.url | relative_url %}
+        {% assign url-fr = item.url | prepend: "/fr" %}
+        <!-- Now add site's baseurl -->
+        {% assign url-final = url-fr | relative_url %}
       {% endif %}
 
       <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}">{{ item.title }}</a>
+        <a href="{{ url-final }}">{{ item.title }}</a>
       </li>
     {% endfor %}
   </ul>

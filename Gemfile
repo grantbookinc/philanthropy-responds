@@ -16,3 +16,6 @@ gem "jekyll-include-cache"
 
 # gem for github pages
 gem "github-pages", "~> 206", group: :jekyll_plugins
+
+# for redirecting
+gem 'jekyll-redirect-from'
