@@ -3,17 +3,29 @@
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
       {% if page.lang == "en" %}
-        {% assign url-en = item.url | prepend: "/en" %}
-        {% assign url-final = url-en | relative_url %}
+        {% assign url = item.url | prepend: "/en" | relative_url %}
       {% else %}
-        {% assign url-fr = item.url | prepend: "/fr" %}
-        {% assign url-final = url-fr | relative_url %}
+        {% assign url = item.url | prepend: "/fr" | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if url-final == page.url %}  item--current{% endif %}">
-        <a href="{{ url-final }}">{{ item.title }}</a>
+      <li class="item  item--nav{% if url == page.url %}  item--current{% endif %}">
+        <a href="{{ url }}">{{ item.title }}</a>
       </li>
     {% endfor %}
+
+    <!-- Language Selectors -->
+    {% assign page-en = page.lang_ref | prepend: "/en" | relative_url %}
+    {% assign page-fr = page.lang_ref | prepend: "/fr" | relative_url %}
+
+    <li class="item item--nav lang">
+      {% if page.lang == "en" %}
+      <span style="font-weight: 600;">EN</span> | 
+      <a href="{{page-fr}}" title="Voir en Français" aria-label="Voir en Français">FR</a>
+      {% else %}
+      <a href="{{page-en}}" title="View in English" aria-label="View in English">EN</a>
+       | <span style="font-weight: 600;">FR</span>
+      {% endif %}
+    </li>
   </ul>
   <button class="button  button--nav" aria-label="Menu toggle">
     {% include icon.html id="nav" title="Menu" %}

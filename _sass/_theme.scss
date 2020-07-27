@@ -83,6 +83,14 @@ body {
       align-items: flex-end;
       justify-content: flex-end;
       overflow: hidden;
+
+      // Language Switcher
+      .lang {
+        margin-left: 2rem;
+        a {
+          display: inline;
+        }
+      }
     }
   }
 
