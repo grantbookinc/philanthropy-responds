@@ -29,11 +29,11 @@
 
             <div class="hero-cta">
                 <a class="button" href="#covid-19-response-dashboard" aria-label="View the Data Visualizations">
-                    See the Data &#8594;
+                    {% if page.lang == "en" %}See the Data{% else %}Consulter les données{% endif %} &#8594;
                 </a>
 
                 <a class="button--hero" href="/adapt/#five-guiding-principles" aria-label="View the Guiding Principles">
-                    Guiding Principles &#8594;
+                    {% if page.lang == "en" %}Guiding Principles{% else %}Principes directeurs{% endif %} &#8594;
                 </a>
             </div>
         </div>
