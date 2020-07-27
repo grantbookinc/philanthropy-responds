@@ -7,11 +7,10 @@
         {% assign url-final = url-en | relative_url %}
       {% else %}
         {% assign url-fr = item.url | prepend: "/fr" %}
-        <!-- Now add site's baseurl -->
         {% assign url-final = url-fr | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if item.url == page.url %}  item--current{% endif %}">
+      <li class="item  item--nav{% if url-final == page.url %}  item--current{% endif %}">
         <a href="{{ url-final }}">{{ item.title }}</a>
       </li>
     {% endfor %}
