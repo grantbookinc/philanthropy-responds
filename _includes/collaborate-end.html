@@ -7,7 +7,9 @@
   </div>
 </div>
 
-{% include data-banner.html %}
+{% if page.open_data %}
+  {% include data-banner.html %}
+{% endif %}
 
 <h2 class="mt-4">{{ page.collaborator_hub_title }}</h2>
 

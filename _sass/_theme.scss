@@ -40,6 +40,7 @@ h5, h6 {
 
 // Structural elements
 body {
+    position: relative;
     background: $backgroundColour;
     color: $bodyColour;
     height: 100%;
@@ -82,6 +83,14 @@ body {
       align-items: flex-end;
       justify-content: flex-end;
       overflow: hidden;
+
+      // Language Switcher
+      .lang {
+        margin-left: 2rem;
+        a {
+          display: inline;
+        }
+      }
     }
   }
 
@@ -222,6 +231,7 @@ body {
     display: flex;
 
     .cta-obj {
+      flex: 1;
       display: flex;
       flex-direction: column;
 
@@ -230,6 +240,7 @@ body {
       }
 
       .cta-description {
+        flex: 1;
         padding: 1rem 2rem;
         background: $lake;
 
@@ -244,9 +255,12 @@ body {
         }
       }
 
-      img {
-        flex-basis: 50%;
+      .cta-img {
+        min-height: 180px;
+        flex: 1;
         width: 100%;
+        background-size: cover;
+        background-position: center center;
       }
     }
   }
@@ -699,6 +713,17 @@ body {
   
 
   // Custom Component Styling ----------------------------
+
+  // Return to Top of Page Link
+  #top {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    padding: 0.4rem 0.8rem;
+    background: $grey-200;
+    color: $grey-500;
+  }
 
   // Organizational COVID Resources Cards (Adapt Page)
   .org-card {

@@ -6,9 +6,7 @@ collections:
     title: Posts
     output: true
     description: Posts
-    feature_text: 'Welcome to the blog
-
-'
+    feature_text: Welcome to the blog
     feature_image: assets/img/hero.jpeg
   uploads:
     title: Uploads
@@ -49,6 +47,7 @@ plugins:
 - jekyll-default-layout
 - jekyll-commonmark
 - jemoji
+- jekyll-redirect-from
 sass:
   style: compressed
 permalink: pretty
@@ -79,8 +78,8 @@ navigation_header:
 - title: Home
   url: "/"
 - title: Collaborate
-  url: "/collaborate/"
+  url: "/collaborate"
 - title: Adapt
-  url: "/adapt/"
+  url: "/adapt"
 - title: Participate
-  url: "/participate/"
+  url: "/participate"

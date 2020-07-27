@@ -1,6 +1,6 @@
 <!-- If there are quotes on this page -->
 {% if page.quotes %}
-<h3>Lessons Learned</h3>
+<h3>{{ page.quotes_title }}</h3>
 {% include quotes-carousel.html %}
 {% endif %}
 
@@ -15,6 +15,6 @@
 
 <div style="text-align: right;">
   <a class="button" href="/collaborate/">
-    View More Data &#8594;
+    {% if page.lang == "en" %}View More Data{% else %}Afficher plus de données{% endif %} &#8594;
   </a>
 </div>

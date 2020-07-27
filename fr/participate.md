@@ -1,9 +1,11 @@
 ---
-title: Participate
+title: Participate (FR)
 date: 2020-07-01 12:10:00 -04:00
-layout: page
 excerpt: How philanthropists are adapting.
-feature_image: "../assets/img/hero-participate.png"
+lang: fr
+lang_ref: "/participate"
+layout: page
+feature_image: "../../assets/img/hero-participate.png"
 feature_text: |
   ###### PARTICIPATE
   # Add your story to support this initiative
