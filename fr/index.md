@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Home (FR)
 date: 2020-07-01 10:56:00 -04:00
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 lang: fr

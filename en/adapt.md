@@ -1,5 +1,5 @@
 ---
-title: Adapt
+title: Adapt (EN)
 date: 2020-07-01 12:10:00 -04:00
 excerpt: How philanthropists are adapting.
 lang: en

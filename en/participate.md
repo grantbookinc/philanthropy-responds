@@ -1,6 +1,6 @@
 ---
-title: Participate
-date: 2020-07-01 12:10:00 -04:00
+title: Participate (EN)
+date: 2020-07-01 12:0:00 -04:00
 excerpt: How philanthropists are adapting.
 lang: en
 lang_ref: /participate
