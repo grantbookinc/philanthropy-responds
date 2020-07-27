@@ -21,8 +21,8 @@
   </div>
 
   <!-- Buttons to Trigger -->
-  <button class="prev">&#x2039; Prev</button>
-  <button class="next">Next &#x203A;</button>
+  <button class="prev">&#x2039; {% if page.lang == "en" %}Prev{% else %}Préc.{% endif %}</button>
+  <button class="next">{% if page.lang == "en" %}Next{% else %}Suiv.{% endif %} &#x203A;</button>
 </div>
 
 <script>
