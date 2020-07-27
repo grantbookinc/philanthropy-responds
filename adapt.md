@@ -10,6 +10,7 @@ feature_text: |
 intro_text: |
   ## Peer Learning
   Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
+quotes_title: What We've Learned
 quotes:
 - funder: MAKEWAY
   quote: The COVID crisis has illuminated  issues of social, cultural, and income
