@@ -5,7 +5,7 @@ excerpt: How philanthropists are adapting.
 lang: fr
 lang_ref: collaborate
 layout: page
-feature_image: ../assets/img/hero-collaborate.png
+feature_image: ../../assets/img/hero-collaborate.png
 feature_text: |
   ###### COLLABORATE
   # Find ways to multiply your impact

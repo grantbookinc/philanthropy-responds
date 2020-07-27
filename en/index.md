@@ -7,7 +7,7 @@ lang_ref: home
 layout: page
 redirect_from:
   - /
-feature_image: ../assets/img/hero_masks.png
+feature_image: ../../assets/img/hero_masks.png
 feature_text: |
   # Philanthropy Responds
   Learn how Canadian foundations are adapting to support nonprofits during an unprecedented global crisis.

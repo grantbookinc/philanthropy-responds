@@ -5,7 +5,7 @@ excerpt: How philanthropists are adapting.
 lang: fr
 lang_ref: participate
 layout: page
-feature_image: ../assets/img/hero-participate.png
+feature_image: ../../assets/img/hero-participate.png
 feature_text: |
   ###### PARTICIPATE
   # Add your story to support this initiative
