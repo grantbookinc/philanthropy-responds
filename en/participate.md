@@ -1,9 +1,9 @@
 ---
 title: Participate
+date: 2020-07-01 12:00:00 -04:00
 lang_ref: participate
-slug: /participate
+slug: "/participate"
 lang: en
-date: 2020-07-01 12:0:00 -04:00
 excerpt: How philanthropists are adapting.
 layout: page
 feature_image: "../../assets/img/hero-participate.png"
