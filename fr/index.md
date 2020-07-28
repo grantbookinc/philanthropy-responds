@@ -61,7 +61,7 @@ cta:
     data.
   button: Participate
   img: "../assets/img/cta-participate-bg.png"
-  img_alt: A photo of a droplet of water bouncing on a pool
+  img_alt: A photo of a droplet of water
   flipped: false
   highlighted: true
 ---
