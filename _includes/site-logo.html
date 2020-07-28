@@ -1,4 +1,10 @@
+{% if page.lang == "en" %}
 <a class="logo" href="{{ site.baseurl }}/">
-  <img src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title | append: ' logo' }}"/>
+  <img src="{{ site.baseurl }}{{ site.logo }}" alt="Philanthropy Responds logo"/>
 </a>
+{% else %}
+<a class="logo" href="{{ site.baseurl }}/">
+  <img src="{{ site.baseurl }}{{ site.logo-fr }}" alt="Logo de la riposte philanthropique"/>
+</a>
+{% endif %}
   

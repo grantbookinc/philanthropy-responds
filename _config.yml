@@ -55,6 +55,7 @@ excerpt_separator: "<!-- more -->"
 encoding: utf-8
 lang: en-UK
 logo: "/assets/brand/Logo.svg"
+logo-fr: "/assets/brand/Logo-FR.svg"
 description: A website for Canadian philanthropy.
 url: https://philanthropyresponds.ca
 baseurl: 
