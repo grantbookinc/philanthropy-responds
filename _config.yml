@@ -79,14 +79,18 @@ languages:
 - fr
 navigation_header:
 - title: Home
+  title-fr: Accueil
   url-en: "/"
   url-fr: "/"
 - title: Collaborate
+  title-fr: Collaboration
   url-en: "/collaborate"
   url-fr: "/collaboration"
 - title: Adapt
+  title-fr: Adaptation
   url-en: "/adapt"
   url-fr: "/adaptation"
 - title: Participate
+  title-fr: Participation
   url-en: "/participate"
   url-fr: "/participation"

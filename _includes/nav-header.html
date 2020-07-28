@@ -9,7 +9,10 @@
       {% endif %}
 
         <li class="item  item--nav {% if item.title == page.lang_ref %} item--current{% endif %}">
-          <a href="{{ url }}" hreflang="{{ page.lang }}" >{{ item.title }}</a>
+          <a href="{{ url }}" hreflang="{{ page.lang }}" >
+            {% if page.lang == "en" %}{{ item.title }}{% endif %}
+            {% if page.lang == "fr" %}{{ item.title-fr }}{% endif %}
+          </a>
         </li>
     {% endfor %}
 
