@@ -74,12 +74,19 @@ favicons:
 manifest:
 - theme_color: "#e33d43"
 - background_color: "#e33d43"
+languages:
+- en
+- fr
 navigation_header:
 - title: Home
-  url: "/"
+  url-en: "/"
+  url-fr: "/"
 - title: Collaborate
-  url: "/collaborate"
+  url-en: "/collaborate"
+  url-fr: "/collaboration"
 - title: Adapt
-  url: "/adapt"
+  url-en: "/adapt"
+  url-fr: "/adaptation"
 - title: Participate
-  url: "/participate"
+  url-en: "/participate"
+  url-fr: "/participation"

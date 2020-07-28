@@ -22,7 +22,7 @@
 
     {% if feature_text or feature_image %}
     <!-- Homepage Feature (Hero) -->
-    {% if page.title == "Home" %}
+    {% if page.lang_ref == "home" %}
         <div class="feature" {% if feature_image %} style="background-image: url({{ feature_image }})"{% endif %}>
         <div class="home-jumbotron container  typeset">
             {{ feature_text | markdownify }}

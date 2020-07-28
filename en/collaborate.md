@@ -1,9 +1,10 @@
 ---
-title: Collaborate (EN)
+title: Collaborate
+lang: en
+lang_ref: collaborate
+slug: /collaborate
 date: 2020-07-01 10:56:00 -04:00
 excerpt: How philanthropists are adapting.
-lang: en
-lang_ref: "/collaborate"
 layout: page
 feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |

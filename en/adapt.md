@@ -1,9 +1,10 @@
 ---
-title: Adapt (EN)
+title: Adapt
+lang: en
+lang_ref: adapt
+slug: /adapt
 date: 2020-07-01 12:10:00 -04:00
 excerpt: How philanthropists are adapting.
-lang: en
-lang_ref: "/collaborate"
 layout: page
 feature_image: "../../assets/img/hero-adapt.png"
 feature_text: |

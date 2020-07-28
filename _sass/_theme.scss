@@ -86,9 +86,12 @@ body {
 
       // Language Switcher
       .lang {
-        margin-left: 2rem;
         a {
           display: inline;
+        }
+        .selected {
+          color: $grey-400;
+          font-weight: 600;
         }
       }
     }

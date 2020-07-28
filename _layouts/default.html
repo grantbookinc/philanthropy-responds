@@ -13,7 +13,11 @@
       {% seo title=false %}
 
       {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
-      <title>{{ collectiondata.title }} - {{ site.title }}</title>
+      {% if page.lang == "en" %}
+      <title>{{ collectiondata.title }} - Philanthropy Responds</title>
+      {% else %}
+      <title>{{ collectiondata.title }} - La Riposte Philanthropique</title>
+      {% endif %}
       <meta property="og:title" content="{{ collectiondata.title }}">
       <meta name="description" content="{{ collectiondata.description }}">
       <meta property="og:description" content="{{ collectiondata.description }}">
