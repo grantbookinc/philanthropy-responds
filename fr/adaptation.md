@@ -1,9 +1,9 @@
 ---
 title: Adaptation
+date: 2020-07-01 12:10:00 -04:00
 lang: fr
 lang_ref: adapt
-slug: /adaptation
-date: 2020-07-01 12:10:00 -04:00
+slug: "/adaptation"
 excerpt: How philanthropists are adapting.
 layout: page
 feature_image: "../../assets/img/hero-adapt.png"

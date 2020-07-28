@@ -1,9 +1,9 @@
 ---
 title: Accueil
+date: 2020-07-01 10:56:00 -04:00
 lang: fr
 lang_ref: home
-slug: /
-date: 2020-07-01 10:56:00 -04:00
+slug: "/"
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 layout: page
 feature_image: "../../assets/img/hero_masks.png"
