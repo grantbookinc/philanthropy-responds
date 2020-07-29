@@ -1,6 +1,6 @@
 ---
-layout: splash
 title: Welcome
+layout: splash
 lang: en
 lang_ref: splash
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
