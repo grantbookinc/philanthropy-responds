@@ -1,11 +1,11 @@
 ---
 title: Adaptation
 date: 2020-07-01 12:10:00 -04:00
-position: 1
+position: 2
+image: "/uploads/cta-adapt-bg.png"
 lang: fr
 lang_ref: adapt
 excerpt: How philanthropists are adapting.
-layout: page
 feature_image: "../../assets/img/hero-adapt.png"
 feature_text: |
   ###### ADAPT
@@ -64,6 +64,7 @@ org_resources:
     to assist foundations in supporting grantees carry on their important work in
     communities throughout and after the crisis.
   url: https://www.the-circle.ca/principles-of-care.html
+layout: page
 ---
 
 ## Five Guiding Principles

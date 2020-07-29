@@ -2,6 +2,7 @@
 title: Participate
 date: 2020-07-01 12:00:00 -04:00
 position: 3
+image: "/uploads/hero-participate.png"
 lang_ref: participate
 lang: en
 excerpt: How philanthropists are adapting.
