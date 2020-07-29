@@ -1,11 +1,11 @@
 ---
 title: Home
 date: 2020-07-01 10:56:00 -04:00
+position: 0
+image: "/uploads/hero_masks.png"
 lang: en
 lang_ref: home
-slug: "/"
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
-layout: page
 redirect_from:
 - "/"
 feature_image: "../../assets/img/hero_masks.png"
@@ -66,6 +66,7 @@ cta:
   img_alt: A photo of a droplet of water
   flipped: false
   highlighted: true
+layout: page
 ---
 
 ## Welcome

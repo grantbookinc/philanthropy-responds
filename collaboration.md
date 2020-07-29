@@ -1,9 +1,9 @@
 ---
 title: Collaboration
 date: 2020-07-01 10:56:00 -04:00
+position: 6
 lang: fr
 lang_ref: collaborate
-slug: "/collaboration"
 excerpt: How philanthropists are adapting.
 layout: page
 feature_image: "../../assets/img/hero-collaborate.png"

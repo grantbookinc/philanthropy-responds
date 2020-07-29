@@ -1,11 +1,11 @@
 ---
 title: Collaborate
 date: 2020-07-01 10:56:00 -04:00
+position: 1
+image: "/uploads/hero-collaborate.png"
 lang: en
 lang_ref: collaborate
-slug: "/collaborate"
 excerpt: How philanthropists are adapting.
-layout: page
 feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABORATE
@@ -19,6 +19,7 @@ open_data_title: Download These Data
 open_data_leed: These data were collected as part of an open-source data project.
   You can download and manipulate the data yourself to find your own trends and patterns.
 open_data_button: Get the Data
+layout: page
 ---
 
 ## Giving Dashboard

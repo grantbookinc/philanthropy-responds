@@ -1,15 +1,16 @@
 ---
 title: Participate
 date: 2020-07-01 12:00:00 -04:00
+position: 3
+image: "/uploads/hero-participate.png"
 lang_ref: participate
-slug: "/participate"
 lang: en
 excerpt: How philanthropists are adapting.
-layout: page
 feature_image: "../../assets/img/hero-participate.png"
 feature_text: |
   ###### PARTICIPATE
   # Add your story to support this initiative
+layout: page
 ---
 
 ## Every story counts

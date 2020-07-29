@@ -15,12 +15,14 @@
       {% endif %}
     </div>
 
-    <a href="/participate/" class="button--canary">
-      {% if page.lang == "en" %}
-        Contribute Your Data
-        {% else %}
-        Fournissez vos données
-      {% endif %}
+    {% if page.lang == "en" %}
+    <a href="/en/participate/" class="button--canary"> 
+      Contribute Your Data
     </a>
+    {% else %}
+    <a href="/fr/participate/" class="button--canary"> 
+      Fournissez vos données
+    </a>
+    {% endif %}
   </div>
 </footer>
