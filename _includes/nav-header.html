@@ -3,27 +3,29 @@
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
       {% if page.lang == "en" %}
-        {% assign url = item.url | prepend: "/en" | relative_url %}
+        {% assign url = item.url-en | prepend: "/en" | relative_url %}     
       {% else %}
-        {% assign url = item.url | prepend: "/fr" | relative_url %}
+        {% assign url = item.url-fr | prepend: "/fr" | relative_url %}
       {% endif %}
 
-      <li class="item  item--nav{% if url == page.url %}  item--current{% endif %}">
-        <a href="{{ url }}" hreflang="{{page.lang}}" >{{ item.title }}</a>
-      </li>
+        <li class="item  item--nav {% if item.title == page.lang_ref %} item--current{% endif %}">
+          <a href="{{ url }}" hreflang="{{ page.lang }}" >
+            {% if page.lang == "en" %}{{ item.title }}{% endif %}
+            {% if page.lang == "fr" %}{{ item.title-fr }}{% endif %}
+          </a>
+        </li>
     {% endfor %}
 
     <!-- Language Selectors -->
-    {% assign page-en = page.lang_ref | prepend: "/en" | relative_url %}
-    {% assign page-fr = page.lang_ref | prepend: "/fr" | relative_url %}
+    {% assign matching-pages = site.pages | where: "lang_ref", page.lang_ref | sort_natural %}
+    {% assign page-en = matching-pages | where: "lang", "en" %}
+    {% assign page-fr = matching-pages | where: "lang", "fr" %}
 
     <li class="item item--nav lang">
       {% if page.lang == "en" %}
-      <span style="font-weight: 600;">EN</span> | 
-      <a href="{{page-fr}}" title="Voir en Français" aria-label="Voir en Français">FR</a>
-      {% else %}
-      <a href="{{page-en}}" title="View in English" aria-label="View in English">EN</a>
-       | <span style="font-weight: 600;">FR</span>
+        <a href="{{ page-fr[0].url }}" title="Voir en Français" aria-label="Voir en Français">FR</a>
+      {% else %}        
+        <a href="{{ page-en[0].url }}" title="View in English" aria-label="View in English">EN</a>
       {% endif %}
     </li>
   </ul>

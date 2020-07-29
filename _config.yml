@@ -55,6 +55,7 @@ excerpt_separator: "<!-- more -->"
 encoding: utf-8
 lang: en-UK
 logo: "/assets/brand/Logo.svg"
+logo-fr: "/assets/brand/Logo-FR.svg"
 description: A website for Canadian philanthropy.
 url: https://philanthropyresponds.ca
 baseurl: 
@@ -74,12 +75,23 @@ favicons:
 manifest:
 - theme_color: "#e33d43"
 - background_color: "#e33d43"
+languages:
+- en
+- fr
 navigation_header:
 - title: Home
-  url: "/"
+  title-fr: Accueil
+  url-en: "/"
+  url-fr: "/"
 - title: Collaborate
-  url: "/collaborate"
+  title-fr: Collaboration
+  url-en: "/collaborate"
+  url-fr: "/collaboration"
 - title: Adapt
-  url: "/adapt"
+  title-fr: Adaptation
+  url-en: "/adapt"
+  url-fr: "/adaptation"
 - title: Participate
-  url: "/participate"
+  title-fr: Participation
+  url-en: "/participate"
+  url-fr: "/participation"

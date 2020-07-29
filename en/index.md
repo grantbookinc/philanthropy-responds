@@ -1,9 +1,10 @@
 ---
-title: Home (EN)
+title: Home
 date: 2020-07-01 10:56:00 -04:00
-excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 lang: en
-lang_ref: "/"
+lang_ref: home
+slug: "/"
+excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 layout: page
 redirect_from:
 - "/"
@@ -62,7 +63,7 @@ cta:
     data.
   button: Participate
   img: "../assets/img/cta-participate-bg.png"
-  img_alt: A photo of a droplet of water bouncing on a pool
+  img_alt: A photo of a droplet of water
   flipped: false
   highlighted: true
 ---

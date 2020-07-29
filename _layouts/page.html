@@ -7,22 +7,22 @@ layout: default
 <main class="main  container">
 
   <article class="article article--page content typeset">
-
+    
     <!-- Hard-Coded Components Before Content -->
-    {% if page.title == "Adapt" %}{% include adapt-start.html %}{% endif %}
+    {% if page.lang_ref == "adapt" %}{% include adapt-start.html %}{% endif %}
 
     {{ content }}
 
     <!-- Hard-Coded Components After Content -->
-    {% if page.title == "Home" %}{% include home-end.html %}{% endif %}
-    {% if page.title == "Collaborate" %}{% include collaborate-end.html %}{% endif %}
-    {% if page.title == "Adapt" %}{% include adapt-end.html %}{% endif %}
-    {% if page.title == "Participate" %}{% include participate-end.html %}{% endif %}
+    {% if page.lang_ref == "home" %}{% include home-end.html %}{% endif %}
+    {% if page.lang_ref == "collaborate" %}{% include collaborate-end.html %}{% endif %}
+    {% if page.lang_ref == "adapt" %}{% include adapt-end.html %}{% endif %}
+    {% if page.lang_ref == "participate" %}{% include participate-end.html %}{% endif %}
 
   </article>
 
 </main>
 
-{% if page.title=="Home" %}{% include site-cta.html %}{% endif %}
+{% if page.lang_ref == "home" %}{% include site-cta.html %}{% endif %}
 
 {% include site-footer.html %}

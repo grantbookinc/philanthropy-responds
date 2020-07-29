@@ -1,9 +1,10 @@
 ---
-title: Home (FR)
+title: Accueil
 date: 2020-07-01 10:56:00 -04:00
-excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 lang: fr
-lang_ref: "/"
+lang_ref: home
+slug: "/"
+excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 layout: page
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |
@@ -60,7 +61,7 @@ cta:
     data.
   button: Participate
   img: "../assets/img/cta-participate-bg.png"
-  img_alt: A photo of a droplet of water bouncing on a pool
+  img_alt: A photo of a droplet of water
   flipped: false
   highlighted: true
 ---
