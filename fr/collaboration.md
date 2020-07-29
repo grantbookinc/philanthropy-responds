@@ -8,8 +8,8 @@ lang_ref: collaborate
 excerpt: How philanthropists are adapting.
 feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
-  ###### COLLABORATE
-  # Find ways to multiply your impact
+  ###### COLLABOREZ
+  # Trouvez des façons de décupler votre impact
 collaborator_hub_title: Find Collaborators
 collaborator_hub_blurb: Find other Canadian grantmakers doing valuable work to support
   communities impacted by COVID-19. This collaborators page is a work in progress
@@ -22,6 +22,6 @@ open_data_button: Get the Data
 layout: page
 ---
 
-## Giving Dashboard
+## Tableau de bord philanthropique
 
-See the data on how Canadian foundations have responded to COVID-19 to better understand the impact areas, activities, regions, and target populations funders are supporting. Sharing data on how charitable giving is being distributed and learning about the initiatives of other grantmakers increases knowledge and capacity and broadens the impact of the sector. 
+Consultez les données sur les mesures prises par les fondations canadiennes en réaction à la COVID-19 pour avoir une meilleure idée des secteurs, des activités, des régions et des populations cibles que les bailleurs de fonds soutiennent. La diffusion de données sur la répartition des dons de bienfaisance et de renseignements sur les initiatives des bailleurs de fonds favorise le développement des connaissances et des capacités et augmente l’impact du secteur.
