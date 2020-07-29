@@ -50,808 +50,841 @@ body {
     font-size: 0.85rem;
   }
   
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Header, feature and footer
+.header,
+.footer {
+  .nav {
+    text-align: right;
+  }
+  .logo {
+    @include flex(0 0 auto);
+  }
   .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  // Header, feature and footer
-  .header,
-  .footer {
-    .nav {
-      text-align: right;
-    }
-    .logo {
-      @include flex(0 0 auto);
-    }
-    .container {
-      @include flexbox;
-      @include flex-direction(row);
-      @include justify-content(space-between);
-      padding: 1rem 0;
-      @include breakpoint(break-1) {
-      @include align-items(center);
-      }
-    }
-  }
-
-  .header {
-    .nav {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-end;
-      justify-content: flex-end;
-      overflow: hidden;
-
-      // Language Switcher
-      .lang {
-        a {
-          display: inline;
-        }
-        .selected {
-          color: $grey-400;
-          font-weight: 600;
-        }
-      }
-    }
-  }
-
-  .navbar {
-    position: relative;
-    z-index: 2;
     @include flexbox;
     @include flex-direction(row);
     @include justify-content(space-between);
-    border-bottom: 1px solid $lake;
-    background-color: $white;
-
-    .container {
-      padding: 0;
-    }
-
-    &--transparent {
-      @extend .navbar;
-      background-color: rgba(255,255,255,0.9);
-    }
-  }
-
-  .feature {
-    position: relative;
-    z-index: 0;
-    margin-top: -5rem;
-    padding-top: 5rem;
-    padding-bottom: 4rem;
-    margin-bottom: 3rem;
-    background: $featureBackgroundColour;
-    background-size: cover;
-    background-position: center;
-    .container {
-      min-height: 35vh;
-      max-width: 70%;
-      @include flex-direction(column);
-      @include justify-content(center);
-    }
-
-    &--banner {
-      @extend .feature;
-      position: relative;
-
-      &:after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        height: 90%;
-        width: 100%;
-        background: transparentize($lake, 0.1);
-      }
-
-      .container {
-        min-height: 25vh;
-        position: relative;
-        z-index: 2;
-        justify-content: flex-end;
-        align-items: baseline;
-
-        h1 {
-          color: $white;
-        }
-
-        h5, h6 {
-          color: transparentize($white, .2);
-        }
-      }
-    }
-
-    // This is the partly-white transparent box in the homepage hero
-    .home-jumbotron {
-      padding: 2rem 2rem 1rem;
-      margin-top: 4rem;
-      background: transparentize($lake, 0.15);
-
-      h1 {
-        font-weight: 600;
-        color: $white;
-      }
-
-      p {
-        color: $white;
-      }
-
-      .hero-cta {
-        display: block;
-
-        .button {
-          margin-right: 1rem;
-
-          &:last-of-type {
-            margin-right: 0;
-          }
-        }
-      }
-    }
-  }
-  
-  .logo {
-    display: inline-block;
-    line-height: 0;
-    @include flexbox;
+    padding: 1rem 0;
+    @include breakpoint(break-1) {
     @include align-items(center);
-    img {
-      max-height: 4rem;
     }
   }
-  
+}
+
+.header {
   .nav {
-    a {
-      display: block;
-      padding: .2rem;
-      margin-top: 1rem;
-      height: 3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.25pt;
-      color: $grey-500;
-      @include transition-300;
-
-      &:hover {
-        color: $lake;
-      }
-    }
-    &--social a {
-      display: inline-block;
-      line-height: 1;
-    }
-  }
-  
-  .small {
-    padding-top: .8rem;
-    display: inline-block;
-  }
-
-  .cta {
     display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
 
-    .cta-obj {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-
-      &.flipped {
-        flex-direction: column-reverse;
-      }
-
-      .cta-description {
-        flex: 1;
-        padding: 1rem 2rem;
-        background: $lake;
-
-        h4 {
-          font-size: 1rem;
-          font-weight: bold;
-          margin-bottom: 0.5rem;
-        }
-
-        h4, p {
-          max-width: 100%;
-        }
-      }
-
-      .cta-img {
-        min-height: 180px;
-        flex: 1;
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-      }
-    }
-  }
-  
-  .footer {
-    min-height: 10rem;
-    background-color: $grey-500;
-    background-position: 105% top;
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-image: url(../assets/brand/lotus-watermark.svg);
-    color: $footerColour;
-    a {
-      color: $footerLinkColour;
-      @include transition-300;
-      &:hover {
-        color: $footerLinkHoverColour;
-      }
-    }
-    .container {
-      @include flex-wrap(wrap);
-      padding: 2rem 0;
-      align-items: flex-start;
-    }
-    // The logo in the footer
-    img {
-      width: 200px;
-      display: block;
-    }
-
-    .small {
-      display: block;
-      padding-top: 0;
-      line-height: 1.5;
-      padding-left: 68px;
-    }
-
-    .acknowledgement {
-      max-width: 800px;
-    }
-  }
-  
-  
-  // Pagination nav
-  .nav--paginator {
-    @include flexbox;
-    @include justify-content(space-between);
-    color: $captionColour;
-    text-align: center;
-  }
-  
-  .pagination {
-    min-width: 20%;
-  }
-  
-  
-  // Main content
-  .main {
-    @include flexbox;
-    @include flex-direction(column);
-    @include flex(1, 0, auto);
-    @include justify-content(flex-start);
-    margin-bottom: 3rem;
-    @include breakpoint(break-1) {
-      @include justify-content(center);
-      @include flex-direction(row);
-    }
-  }
-  
-  .header,
-  .feature,
-  .footer {
-    @include flex(0, 0, auto);
-  }
-  
-  .content {
-    @include breakpoint(break-1) {
-      width: 80%;
-    }
-  }
-  
-  .share .button {
-    margin-right: .3rem;
-  }
-  
-  .aside {
-    @include breakpoint(break-1) {
-      max-width: 34%;
-      margin-left: 4%;
-      @include flex(1, 0, auto);
-      opacity: 0.5;
-      transition: opacity .1s;
-      .section {
-        position: sticky;
-        top: 0;
-      }
-      &--left {
-        margin-left: 0;
-        margin-right: 4%;
-        order: -1;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-  }
-  
-  .section {
-    margin: 0;
-  }
-  
-  
-  // Lists
-  .list {
-    list-style: none;
-    &--nav {
-      overflow: hidden;
-      margin-bottom: var(--listHeight, 0);
-    }
-    .item--post,
-    .item--result,
-    .item--category {
-      margin-left: 0;
-    }
-  }
-  
-  .item {
-    &--nav {
-      @include breakpoint(break-1) {
-        margin-left: .4rem;
-        display: inline-block;
-      }
-      &:first-of-type {
-        margin-left: 0;
-      }
-    }
-    &--current {
+    // Language Switcher
+    .lang {
       a {
-        color: $lake;
+        display: inline;
+      }
+      .selected {
+        color: $grey-400;
         font-weight: 600;
-        border-bottom: 4px solid $lake;
       }
     }
   }
-  
-  
-  // Links, icons and images
-  a .icon {
-    transition: fill .1s;
-    &:hover {
-      fill: currentColor;
-    }
+}
+
+.navbar {
+  position: relative;
+  z-index: 2;
+  @include flexbox;
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  border-bottom: 1px solid $lake;
+  background-color: $white;
+
+  .container {
+    padding: 0;
   }
-  
-  .icon {
-    vertical-align: middle;
-    width: 1.1em;
-    height: 1.1em;
-    fill: CurrentColor;
+
+  &--transparent {
+    @extend .navbar;
+    background-color: rgba(255,255,255,0.9);
   }
-  
-  // Media content
-  img {
-    max-width: 100%;
-    height: auto;
+}
+
+.feature {
+  position: relative;
+  z-index: 0;
+  margin-top: -5rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  margin-bottom: 3rem;
+  background: $featureBackgroundColour;
+  background-size: cover;
+  background-position: center;
+  .container {
+    min-height: 35vh;
+    max-width: 70%;
+    @include flex-direction(column);
+    @include justify-content(center);
   }
-  
-  .figure {
-    line-height: 0;
-    &--left {
-      float: left;
-      padding-right: .8rem;
-    }
-    &--right {
-      float: right;
-      text-align: right;
-      padding-left: .8rem;
-    }
-    &--center {
-      text-align: center;
-      clear: both;
-    }
-  }
-  
-  .video,
-  .map {
+
+  &--banner {
+    @extend .feature;
     position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    iframe {
+
+    &:after {
+      content: '';
       position: absolute;
+      z-index: -1;
       top: 0;
       left: 0;
+      height: 90%;
       width: 100%;
-      height: 100%;
+      background: transparentize($lake, 0.1);
+    }
+
+    .container {
+      min-height: 25vh;
+      position: relative;
+      z-index: 2;
+      justify-content: flex-end;
+      align-items: baseline;
+
+      h1 {
+        color: $white;
+      }
+
+      h5, h6 {
+        color: transparentize($white, .2);
+      }
     }
   }
-  
-  .map {
-    padding-bottom: 70%;
-  }
-  
-  .figure,
-  .video,
-  .map,
-  .form {
-    margin-bottom: .8rem;
-  }
-  
-  audio,
-  video {
-    width: 100%;
-  }
-  
-  
-  // Form elements and buttons
-  .form {
-    position: relative;
-    &__legend {
-      font-style: italic;
-      color: $captionColour;
-      position: absolute;
-      overflow: hidden;
-      right: 0;
-      clip: rect(0 0 0 0);
+
+  // This is the partly-white transparent box in the homepage hero
+  .home-jumbotron {
+    padding: 2rem 2rem 1rem;
+    margin-top: 4rem;
+    background: transparentize($lake, 0.15);
+
+    h1 {
+      font-weight: 600;
+      color: $white;
+    }
+
+    p {
+      color: $white;
+    }
+
+    .hero-cta {
+      display: block;
+
+      .button {
+        margin-right: 1rem;
+
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
     }
   }
-  
-  button,
-  .button,
-  input[type="text"],
-  input[type="email"],
-  input[type="search"],
-  input[type="submit"],
-  input[type="color"],
-  textarea,
-  select {
-    padding: .6rem 1.2rem;
-    margin-bottom: .6rem;
-    transition: color .1s, background-color .1s, border .1s;
-    line-height: inherit;
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    -webkit-appearance: none;
-    .icon {
-      margin: 0 0 .35rem;
-    }
+}
+
+.logo {
+  display: inline-block;
+  line-height: 0;
+  @include flexbox;
+  @include align-items(center);
+  img {
+    max-height: 4rem;
   }
-  
-  input[type="submit"],
-  button,
-  .button {
-    cursor: pointer;
-    display: inline-block;
-    color: $backgroundColour;
-    background: $accentColour;
-    transition: box-shadow .1s;
-    will-change: box-shadow;
-    box-sizing: border-box;
-    box-shadow: 0 0 0 2rem transparent;
+}
+
+.nav {
+  a {
+    display: block;
+    padding: .2rem;
+    margin-top: 1rem;
+    height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25pt;
+    color: $grey-500;
     @include transition-300;
+
     &:hover {
-      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
-      color: $backgroundColour;
-    }
-    &:active,
-    &:focus {
-      box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
-      color: $backgroundColour;
-    }
-  }
-
-  .button--hero {
-    @extend button;
-    color: $white;
-    background: transparent;
-    border: 1px solid $white;
-    @include transition-300;
-
-    &:hover, &:focus {
-      box-shadow: none;
-      background: $white;
       color: $lake;
     }
   }
+  &--social a {
+    display: inline-block;
+    line-height: 1;
+  }
+}
 
-  .button--transparent {
-    @extend button;
-    background: transparent;
-    color: $white;
-    border: 1px $white solid;
-    @include transition-300;
+.small {
+  padding-top: .8rem;
+  display: inline-block;
+}
 
-    &:hover, &:focus {
-      box-shadow: none;
-      background: $white;
-      color: $grey-600;
-    }
-  }
+.cta {
+  display: flex;
 
-  .button--canary {
-    @extend button;
-    background: $canary;
-    color: $grey-600 !important;
-    margin-top: 2rem;
-    @include transition-300;
-
-    &:hover {
-      color: $grey-600;
-    }
-  }
-  
-  .button--nav {
-    @include breakpoint(break-1) {
-      display: none;
-    }
-    background: none;
-    color: $linkColour;
-    margin-bottom: 0;
-    min-height: 4rem;
-    min-width: 4rem;
-    &:hover,
-    &:focus {
-      box-shadow: none;
-      color: $hoverColour;
-    }
-  }
-  
-  a,
-  button,
-  .button,
-  input,
-  textarea,
-  select {
-    &:focus,
-    &:hover:focus {
-      outline: solid .12rem $focusColour;
-      outline-offset: -.12rem;
-    }
-  }
-  
-  a:hover:focus {
-    outline: none;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="search"],
-  input[type="color"],
-  textarea,
-  select {
-    width: 100%;
-    border: 1px solid $captionColour;
-    &:hover {
-      border-color: $bodyColour;
-    }
-  }
-  
-  select {
-    background: $codeBackgroundColour;
-  }
-  
-  textarea {
-      resize: vertical;
-  }
-  
-  label {
-    @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
-  }
-  
-  code {
-    padding: .12rem .2rem;
-    color: $headingColour;
-  }
-  
-  pre code {
-    padding: 0;
-  }
-  
-  .required {
-    color: red;
-  }
-  
-  ::-webkit-input-placeholder {
-    opacity: 0.5;
-  }
-  ::-moz-placeholder {
-    opacity: 0.5;
-  }
-  :-ms-input-placeholder {
-    opacity: 0.5;
-  }
-  :-moz-placeholder {
-    opacity: 0.5;
-  }
-  
-  ::selection {
-    background: $headingColour;
-    color: $backgroundColour;
-    text-shadow: none;
-  }
-  
-  
-  // Sassline overrides
-  .typeset {
-    i {
-      font-style: inherit;
-    }
-
-    a > code {
-      text-shadow: none;
-    }
-    .button,
-    button {
-      background-image: none;
-      text-shadow: none;
-      // color: $backgroundColour;
-      &:hover,
-      &:active,
-      &:focus {
-        background-image: none;
-        // color: $backgroundColour;
-      }
-    }
-    hr {
-      width: 100%;
-    }
-    li {
-      > p {
-        padding: 0;
-        margin: 0;
-      }
-    }
-    .nav a {
-      padding-left: 0;
-      padding-right: 0;
-      margin-left: .2rem;
-      margin-right: .2rem;
-    }
-    pre {
-      white-space: pre;
-      overflow-x: scroll;
-    }
-
-    h6 {
-      margin-bottom: -0.3rem;
-    }
-  }
-  
-
-  // Custom Component Styling ----------------------------
-
-  // Return to Top of Page Link
-  #top {
-    display: block;
-    position: fixed;
-    right: 0;
-    bottom: 10%;
-    padding: 0.4rem 0.8rem;
-    background: $grey-200;
-    color: $grey-500;
-  }
-
-  // Organizational COVID Resources Cards (Adapt Page)
-  .org-card {
+  .cta-obj {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    margin-bottom: 3rem;
-    text-align: center;
 
-    img {
-      display: block;
-      margin: 0 auto;
-      box-sizing: border-box;
-      border-top: 1px $grey-100 solid;
-      border-left: 1px $grey-100 solid;
-      border-right: 1px $grey-100 solid;
+    &.flipped {
+      flex-direction: column-reverse;
     }
 
-    .org-summary {
-      background: $grey-100;
-      padding: 2rem;
-      text-align: left;
-    }
+    .cta-description {
+      flex: 1;
+      padding: 1rem 2rem;
+      background: $lake;
 
-    .button {
-      margin-bottom: 0;
-      text-align: center;
-      border: 1px $ruby solid;
-      position: relative;
-      z-index: 2;
-    }
-  }
+      h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
 
-  // Quotes Carousel (Adapt & Homepage)
-  .quotes-carousel-wrapper {
-    width: 100%;
-    margin-bottom: 3rem;
-    position: relative;
-
-    .quotes-carousel {
-      padding-bottom: 2rem;
-
-      .slide {
-        min-height: 280px;
-        background-image: url('../assets/img/quotes-lake-transparent.png');
-        background-size: 250px;
-        background-repeat: no-repeat;
-        background-position: center 0;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-
-        .quote {
-          display: flex;
-          align-items: center;
-          flex: 1 0 auto;
-          margin: 0 auto;
-          font-size: 1.25rem;
-          line-height: 1.25;
-          font-weight: 200;
-          color: $grey-500;
-          width: 70%;
-          max-width: 500px;
-        }
-
-        .source {
-          flex: 0 0 auto;
-          display: flex;
-          justify-content: center;
-        }
-
-        .logo {
-          max-width: 120px;
-          height: auto;
-        }
-
-        .name {
-          display: inline-block;
-          margin-left: 20px;
-          text-align: left;
-
-          h5 {
-            color: $grey-500;
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 2;
-            padding: 0;
-          }
-
-          h6 {
-            color: $grey-400;
-            font-size: 0.85rem;
-            font-weight: 400;
-            line-height: 1;
-            padding: 0;
-          }
-        }
+      h4, p {
+        max-width: 100%;
       }
     }
 
-    .prev, .next {
-      position: absolute;
-      top: 40%;
-      padding: .4rem .8rem;
-      background: $mint;
-    }
-
-    .prev {
-      left: 0;
-    }
-
-    .next {
-      right: 0;
+    .cta-img {
+      min-height: 180px;
+      flex: 1;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
     }
   }
+}
 
-  // Open Data Banner (Collaborate)
-  .data-banner {
-    background: $grape;
-    background-image: url(../assets/img/download-cloud.png);
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: 85% center;
+.footer {
+  min-height: 10rem;
+  background-color: $grey-500;
+  background-position: 105% top;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-image: url(../assets/brand/lotus-watermark.svg);
+  color: $footerColour;
+  a {
+    color: $footerLinkColour;
+    @include transition-300;
+    &:hover {
+      color: $footerLinkHoverColour;
+    }
+  }
+  .container {
+    @include flex-wrap(wrap);
+    padding: 2rem 0;
+    align-items: flex-start;
+  }
+  // The logo in the footer
+  img {
+    width: 200px;
+    display: block;
+  }
+
+  .small {
+    display: block;
+    padding-top: 0;
+    line-height: 1.5;
+    padding-left: 68px;
+  }
+
+  .acknowledgement {
+    max-width: 800px;
+  }
+}
+
+
+// Pagination nav
+.nav--paginator {
+  @include flexbox;
+  @include justify-content(space-between);
+  color: $captionColour;
+  text-align: center;
+}
+
+.pagination {
+  min-width: 20%;
+}
+
+
+// Main content
+.main {
+  @include flexbox;
+  @include flex-direction(column);
+  @include flex(1, 0, auto);
+  @include justify-content(flex-start);
+  margin-bottom: 3rem;
+  @include breakpoint(break-1) {
+    @include justify-content(center);
+    @include flex-direction(row);
+  }
+}
+
+.header,
+.feature,
+.footer {
+  @include flex(0, 0, auto);
+}
+
+.content {
+  @include breakpoint(break-1) {
+    width: 80%;
+  }
+}
+
+.share .button {
+  margin-right: .3rem;
+}
+
+.aside {
+  @include breakpoint(break-1) {
+    max-width: 34%;
+    margin-left: 4%;
+    @include flex(1, 0, auto);
+    opacity: 0.5;
+    transition: opacity .1s;
+    .section {
+      position: sticky;
+      top: 0;
+    }
+    &--left {
+      margin-left: 0;
+      margin-right: 4%;
+      order: -1;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.section {
+  margin: 0;
+}
+
+
+// Lists
+.list {
+  list-style: none;
+  &--nav {
+    overflow: hidden;
+    margin-bottom: var(--listHeight, 0);
+  }
+  .item--post,
+  .item--result,
+  .item--category {
+    margin-left: 0;
+  }
+}
+
+.item {
+  &--nav {
+    @include breakpoint(break-1) {
+      margin-left: .4rem;
+      display: inline-block;
+    }
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+  &--current {
+    a {
+      color: $lake;
+      font-weight: 600;
+      border-bottom: 4px solid $lake;
+    }
+  }
+}
+
+
+// Links, icons and images
+a .icon {
+  transition: fill .1s;
+  &:hover {
+    fill: currentColor;
+  }
+}
+
+.icon {
+  vertical-align: middle;
+  width: 1.1em;
+  height: 1.1em;
+  fill: CurrentColor;
+}
+
+// Media content
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.figure {
+  line-height: 0;
+  &--left {
+    float: left;
+    padding-right: .8rem;
+  }
+  &--right {
+    float: right;
+    text-align: right;
+    padding-left: .8rem;
+  }
+  &--center {
+    text-align: center;
+    clear: both;
+  }
+}
+
+.video,
+.map {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.map {
+  padding-bottom: 70%;
+}
+
+.figure,
+.video,
+.map,
+.form {
+  margin-bottom: .8rem;
+}
+
+audio,
+video {
+  width: 100%;
+}
+
+
+// Form elements and buttons
+.form {
+  position: relative;
+  &__legend {
+    font-style: italic;
+    color: $captionColour;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    clip: rect(0 0 0 0);
+  }
+}
+
+button,
+.button,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="submit"],
+input[type="color"],
+textarea,
+select {
+  padding: .6rem 1.2rem;
+  margin-bottom: .6rem;
+  transition: color .1s, background-color .1s, border .1s;
+  line-height: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  .icon {
+    margin: 0 0 .35rem;
+  }
+}
+
+input[type="submit"],
+button,
+.button {
+  cursor: pointer;
+  display: inline-block;
+  color: $backgroundColour;
+  background: $accentColour;
+  transition: box-shadow .1s;
+  will-change: box-shadow;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2rem transparent;
+  @include transition-300;
+  &:hover {
+    box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
+    color: $backgroundColour;
+  }
+  &:active,
+  &:focus {
+    box-shadow: inset 0 0 0 2rem rgba(0,0,0,0.1);
+    color: $backgroundColour;
+  }
+}
+
+.button--hero {
+  @extend button;
+  color: $white;
+  background: transparent;
+  border: 1px solid $white;
+  @include transition-300;
+
+  &:hover, &:focus {
+    box-shadow: none;
+    background: $white;
+    color: $lake;
+  }
+}
+
+.button--transparent {
+  @extend button;
+  background: transparent;
+  color: $white;
+  border: 1px $white solid;
+  @include transition-300;
+
+  &:hover, &:focus {
+    box-shadow: none;
+    background: $white;
+    color: $grey-600;
+  }
+}
+
+.button--canary {
+  @extend button;
+  background: $canary;
+  color: $grey-600 !important;
+  margin-top: 2rem;
+  @include transition-300;
+
+  &:hover {
+    color: $grey-600;
+  }
+}
+
+.button--nav {
+  @include breakpoint(break-1) {
+    display: none;
+  }
+  background: none;
+  color: $linkColour;
+  margin-bottom: 0;
+  min-height: 4rem;
+  min-width: 4rem;
+  &:hover,
+  &:focus {
+    box-shadow: none;
+    color: $hoverColour;
+  }
+}
+
+a,
+button,
+.button,
+input,
+textarea,
+select {
+  &:focus,
+  &:hover:focus {
+    outline: solid .12rem $focusColour;
+    outline-offset: -.12rem;
+  }
+}
+
+a:hover:focus {
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="color"],
+textarea,
+select {
+  width: 100%;
+  border: 1px solid $captionColour;
+  &:hover {
+    border-color: $bodyColour;
+  }
+}
+
+select {
+  background: $codeBackgroundColour;
+}
+
+textarea {
+    resize: vertical;
+}
+
+label {
+  @include baseline($fontsize: zeta, $font: $bodytype, $lineheight: 2, $below: 2, $breakpoint: all);
+}
+
+code {
+  padding: .12rem .2rem;
+  color: $headingColour;
+}
+
+pre code {
+  padding: 0;
+}
+
+.required {
+  color: red;
+}
+
+::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+::-moz-placeholder {
+  opacity: 0.5;
+}
+:-ms-input-placeholder {
+  opacity: 0.5;
+}
+:-moz-placeholder {
+  opacity: 0.5;
+}
+
+::selection {
+  background: $headingColour;
+  color: $backgroundColour;
+  text-shadow: none;
+}
+
+
+// Sassline overrides
+.typeset {
+  i {
+    font-style: inherit;
+  }
+
+  a > code {
+    text-shadow: none;
+  }
+  .button,
+  button {
+    background-image: none;
+    text-shadow: none;
+    // color: $backgroundColour;
+    &:hover,
+    &:active,
+    &:focus {
+      background-image: none;
+      // color: $backgroundColour;
+    }
+  }
+  hr {
+    width: 100%;
+  }
+  li {
+    > p {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .nav a {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: .2rem;
+    margin-right: .2rem;
+  }
+  pre {
+    white-space: pre;
+    overflow-x: scroll;
+  }
+
+  h6 {
+    margin-bottom: -0.3rem;
+  }
+}
+
+
+// Custom Component Styling ----------------------------
+
+// Return to Top of Page Link
+#top {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+  padding: 0.4rem 0.8rem;
+  background: $grey-200;
+  color: $grey-500;
+}
+
+// Organizational COVID Resources Cards (Adapt Page)
+.org-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-top: 1px $grey-100 solid;
+    border-left: 1px $grey-100 solid;
+    border-right: 1px $grey-100 solid;
+  }
+
+  .org-summary {
+    background: $grey-100;
     padding: 2rem;
+    text-align: left;
+  }
 
-    h3, p {
-      color: $white;
+  .button {
+    margin-bottom: 0;
+    text-align: center;
+    border: 1px $ruby solid;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// Quotes Carousel (Adapt & Homepage)
+.quotes-carousel-wrapper {
+  width: 100%;
+  margin-bottom: 3rem;
+  position: relative;
+
+  .quotes-carousel {
+    padding-bottom: 2rem;
+
+    .slide {
+      min-height: 280px;
+      background-image: url('../assets/img/quotes-lake-transparent.png');
+      background-size: 250px;
+      background-repeat: no-repeat;
+      background-position: center 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      .quote {
+        display: flex;
+        align-items: center;
+        flex: 1 0 auto;
+        margin: 0 auto;
+        font-size: 1.25rem;
+        line-height: 1.25;
+        font-weight: 200;
+        color: $grey-500;
+        width: 70%;
+        max-width: 500px;
+      }
+
+      .source {
+        flex: 0 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .logo {
+        max-width: 120px;
+        height: auto;
+      }
+
+      .name {
+        display: inline-block;
+        margin-left: 20px;
+        text-align: left;
+
+        h5 {
+          color: $grey-500;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 2;
+          padding: 0;
+        }
+
+        h6 {
+          color: $grey-400;
+          font-size: 0.85rem;
+          font-weight: 400;
+          line-height: 1;
+          padding: 0;
+        }
+      }
     }
   }
+
+  .prev, .next {
+    position: absolute;
+    top: 40%;
+    padding: .4rem .8rem;
+    background: $mint;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
+
+// Open Data Banner (Collaborate)
+.data-banner {
+  background: $grape;
+  background-image: url(../assets/img/download-cloud.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: 85% center;
+  padding: 2rem;
+
+  h3, p {
+    color: $white;
+  }
+}
+
+//Splash Page
+.splash-overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .splash {
+    position: relative;
+    background: transparentize($lake, 0.1);
+    padding: 2rem;
+    text-align: center;
+
+    h1, h3, h5, p {
+      color: white;
+    }
+
+    h1 {
+      font-weight: 600;
+      line-height: 1.25;
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}
