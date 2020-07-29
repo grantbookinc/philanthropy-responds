@@ -1,7 +1,7 @@
 ---
 title: Participation
 date: 2020-07-01 12:10:00 -04:00
-position: 1
+position: 3
 lang: fr
 lang_ref: participate
 excerpt: How philanthropists are adapting.
