@@ -8,7 +8,7 @@
         {% assign url = item.url-fr | prepend: "/fr" | relative_url %}
       {% endif %}
 
-        <li class="item  item--nav {% if item.title == page.lang_ref %} item--current{% endif %}">
+        <li class="item  item--nav {% if item.title == page.title or item.title-fr == page.title %} item--current{% endif %}">
           <a href="{{ url }}" hreflang="{{ page.lang }}" >
             {% if page.lang == "en" %}{{ item.title }}{% endif %}
             {% if page.lang == "fr" %}{{ item.title-fr }}{% endif %}
