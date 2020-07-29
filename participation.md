@@ -1,7 +1,7 @@
 ---
 title: Participation
 date: 2020-07-01 12:10:00 -04:00
-position: 6
+position: 7
 lang: fr
 lang_ref: participate
 slug: "/participation"
