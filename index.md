@@ -2,6 +2,7 @@
 title: Welcome | Bienvenue
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 layout: splash
+splash_background: ../assets/img/hero_masks.png
 ---
 
 <h5>WELCOME TO | BIENVENUE À</h5>
