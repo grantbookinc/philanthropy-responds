@@ -47,7 +47,6 @@ plugins:
 - jekyll-default-layout
 - jekyll-commonmark
 - jemoji
-- jekyll-redirect-from
 sass:
   style: compressed
 permalink: pretty
