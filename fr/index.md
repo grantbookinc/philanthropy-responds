@@ -2,10 +2,10 @@
 title: Accueil
 date: 2020-07-01 10:56:00 -04:00
 position: 0
+image: "/uploads/hero_masks.png"
 lang: fr
 lang_ref: home
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
-layout: page
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |
   # Philanthropy Responds
@@ -64,6 +64,7 @@ cta:
   img_alt: A photo of a droplet of water
   flipped: false
   highlighted: true
+layout: page
 ---
 
 ## Welcome
