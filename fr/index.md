@@ -7,9 +7,9 @@ lang: fr
 lang_ref: home
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 feature_image: "../../assets/img/hero_masks.png"
-feature_text: |
-  # Philanthropy Responds
-  Learn how Canadian foundations are adapting to support nonprofits during an unprecedented global crisis.
+feature_text: |-
+  # LA RIPOSTE PHILANTHROPIQUE
+  Découvrez comment les fondations canadiennes s’adaptent pour venir en aide aux OBNL durant une crise mondiale sans précédent.
 quotes_title: Lessons Learned
 quotes:
 - funder: MAKEWAY
