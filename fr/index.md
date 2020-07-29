@@ -73,6 +73,6 @@ cta:
 layout: page
 ---
 
-## Bienvenue
+## Bienvenue testing siteleaf
 
 La philanthropie au Canada subit de grandes transformations en réaction à la pandémie de COVID-19. De nombreux bailleurs de fonds se sont adaptés à cette situation sans précédent en modifiant l’aide qu’ils apportent à leurs donataires. La Riposte philanthropique est un outil de cartographie interactive qui vise à recenser les initiatives et à favoriser la collaboration dans la communauté des bailleurs de fonds philanthropiques au Canada pour mieux répondre aux besoins des Canadiens et des Canadiennes les plus touchés par cette crise. En diffusant des données, en fournissant une plateforme de mobilisation des bailleurs de fonds et en présentant un portrait à jour des activités et des besoins de financement non comblés, la Riposte philanthropique est un outil de données utile pour développer les connaissances, encourager la collaboration et aider les bailleurs de fonds à prendre des décisions.
