@@ -1,7 +1,7 @@
 ---
 title: Adapt
 date: 2020-07-01 12:10:00 -04:00
-position: 3
+position: 2
 lang: en
 lang_ref: adapt
 slug: "/adapt"
