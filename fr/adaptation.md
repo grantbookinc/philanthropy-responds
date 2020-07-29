@@ -8,7 +8,7 @@ lang_ref: adapt
 excerpt: How philanthropists are adapting.
 feature_image: "../../assets/img/hero-adapt.png"
 feature_text: |
-  ###### ADAPT
+  ###### ADAPTEZ-VOUS
   # Learn how to adapt your giving strategy
 intro_text: |
   ## Peer Learning
