@@ -1,7 +1,7 @@
 ---
 title: Accueil
 date: 2020-07-01 10:56:00 -04:00
-position: 4
+position: 2
 lang: fr
 lang_ref: home
 redirect_from: "/"
