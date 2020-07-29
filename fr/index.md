@@ -8,7 +8,7 @@ lang_ref: home
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |-
-  # LA RIPOSTE PHILANTHROPIQUE
+  # La Riposte philanthropique
   Découvrez comment les fondations canadiennes s’adaptent pour venir en aide aux OBNL durant une crise mondiale sans précédent.
 quotes_title: Lessons Learned
 quotes:
