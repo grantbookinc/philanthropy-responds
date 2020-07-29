@@ -1,7 +1,7 @@
 ---
 title: Collaboration
 date: 2020-07-01 10:56:00 -04:00
-position: 2
+position: 1
 image: "/uploads/hero-collaborate.png"
 lang: fr
 lang_ref: collaborate

@@ -1,7 +1,7 @@
 ---
 title: Adaptation
 date: 2020-07-01 12:10:00 -04:00
-position: 1
+position: 2
 image: "/uploads/cta-adapt-bg.png"
 lang: fr
 lang_ref: adapt
