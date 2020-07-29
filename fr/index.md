@@ -67,6 +67,6 @@ cta:
 layout: page
 ---
 
-## Welcome
+## Bienvenue
 
-Philanthropy in Canada is undergoing a major shift in response to the COVID-19 pandemic and many funders have adapted to this unprecedented situation and adjusted their support to grantees. Philanthropy Responds is an interactive data mapping tool designed to identify initiatives and encourage collaboration within the Canadian grantmaking community to better serve Canadians impacted by this crisis. By sharing data and providing a platform to engage funders, along with a timely snapshot of activities and critical gaps in funding, Philanthropy Responds is a useful data tool to build knowledge, encourage collaboration and help funders make decisions. 
+La philanthropie au Canada subit de grandes transformations en réaction à la pandémie de COVID-19. De nombreux bailleurs de fonds se sont adaptés à cette situation sans précédent en modifiant l’aide qu’ils apportent à leurs donataires. La Riposte philanthropique est un outil de cartographie interactive qui vise à recenser les initiatives et à favoriser la collaboration dans la communauté des bailleurs de fonds philanthropiques au Canada pour mieux répondre aux besoins des Canadiens et des Canadiennes les plus touchés par cette crise. En diffusant des données, en fournissant une plateforme de mobilisation des bailleurs de fonds et en présentant un portrait à jour des activités et des besoins de financement non comblés, la Riposte philanthropique est un outil de données utile pour développer les connaissances, encourager la collaboration et aider les bailleurs de fonds à prendre des décisions.
