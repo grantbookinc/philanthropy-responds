@@ -6,8 +6,8 @@ splash_background: "../assets/img/hero_masks.png"
 layout: splash
 ---
 
-<h5>WELCOME TO | BIENVENUE À</h5>
-<h1>Philanthropy Responds<br/>(La Riposte Philanthropique)</h1>
+##### WELCOME TO | BIENVENUE À
+# Philanthropy Responds<br/>(La Riposte Philanthropique)
 
 <p>Select your language | Choisissez votre langue</p>
 
