@@ -5,8 +5,6 @@ position: 0
 lang: en
 lang_ref: home
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
-redirect_from:
-- "/"
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |
   # Philanthropy Responds
