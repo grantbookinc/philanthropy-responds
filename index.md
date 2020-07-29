@@ -1,12 +1,12 @@
 ---
 title: Welcome
-layout: splash
 lang: en
 lang_ref: splash
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
+layout: splash
 ---
 
-<h5>WELCOME TO</h5>
+<h5>WELCOME TO | BIEVENUE À</h5>
 <h1>Philanthropy Responds<br/>(La Riposte Philanthropique)</h1>
 
 <p>Select your language | Choisissez votre langue</p>
