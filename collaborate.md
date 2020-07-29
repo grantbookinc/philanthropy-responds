@@ -1,6 +1,7 @@
 ---
 title: Collaborate
 date: 2020-07-01 10:56:00 -04:00
+position: 1
 lang: en
 lang_ref: collaborate
 excerpt: How philanthropists are adapting.
