@@ -1,7 +1,5 @@
 ---
 title: Welcome | Bienvenue
-lang: en
-lang_ref: splash
 excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 layout: splash
 ---
