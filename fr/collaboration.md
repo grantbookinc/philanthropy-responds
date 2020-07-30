@@ -5,7 +5,9 @@ position: 1
 image: "/uploads/hero-collaborate.png"
 lang: fr
 lang_ref: collaborate
-excerpt: How philanthropists are adapting.
+excerpt: Découvrez comment les philanthropes canadiens ont évolué pour soutenir leurs
+  communautés à la suite de la crise du COVID-19. Consultez notre hub de collaborateurs
+  pour trouver d'autres bailleurs de fonds avec lesquels travailler.
 feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABOREZ
