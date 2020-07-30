@@ -5,7 +5,9 @@ position: 1
 image: "/uploads/hero-collaborate.png"
 lang: en
 lang_ref: collaborate
-excerpt: How philanthropists are adapting.
+excerpt: See how Canadian philanthropists have pivoted to support their communities
+  in the wake of the COVID-19 crisis. View our collaborator hub to find other funders
+  to work with.
 feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABORATE
