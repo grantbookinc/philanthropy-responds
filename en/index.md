@@ -45,7 +45,7 @@ cta:
 - title: Adapt
   leed: Adapt to this changing situation by learning how other funders have pivoted.
   button: Adapt
-  url: /en/adapt
+  url: "/en/adapt"
   img: "../assets/img/cta-adapt-bg.png"
   img_alt: A road sign indicating bends in the road ahead
   flipped: false
@@ -53,7 +53,7 @@ cta:
 - title: Collaborate
   leed: Collaborate with funders on similar projects to multiply your impact.
   button: Collaborate
-  url: /en/collaborate
+  url: "/en/collaborate"
   img: "../assets/img/cta-collaborate-bg.png"
   img_alt: A painting of a pair of clasped hands
   flipped: true
@@ -62,7 +62,7 @@ cta:
   leed: Participate in this knowledge-sharing project by adding your story to our
     data.
   button: Participate
-  url: /en/participate
+  url: "/en/participate"
   img: "../assets/img/cta-participate-bg.png"
   img_alt: A photo of a droplet of water
   flipped: false
