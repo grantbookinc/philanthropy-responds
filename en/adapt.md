@@ -47,15 +47,19 @@ quotes:
 org_resources:
 - name: Philanthropic Foundations of Canada
   logo: "../../assets/img/pfc-logo.png"
-  summary: Philanthropic Foundations of Canada provides resources... [summary here]
+  summary: Read the latest COVID-19 developments affecting PFC’s philanthropic community.
   url: https://pfc.ca/covid19/
 - name: Community Foundations of Canada
   logo: "../../assets/img/cfc-logo.png"
-  summary: Community Foundations of Canada provides resources... [summary here]
+  summary: 'It is a difficult moment for communities in Canada and around the world.
+    With the declaration of a COVID-19 pandemic, we want to share information about
+    the steps we are taking to support community foundations as well as updates about
+    our operations during the crisis. '
   url: https://www.communityfoundations.ca/covid19/
 - name: Environment Funders of Canada
   logo: "../../assets/img/efc-logo.png"
-  summary: Envronment Funders Canada provides resources... [summary here]
+  summary: View news and resources from the Environment Funders Canada to help navigate
+    this crisis.
   url: https://environmentfunders.ca/
 - name: The Circle
   logo: "../../assets/img/tc-logo.png"
