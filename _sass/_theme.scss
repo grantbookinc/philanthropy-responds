@@ -735,6 +735,10 @@ pre code {
   margin-bottom: 3rem;
   text-align: center;
 
+  &:nth-child(2) {
+    margin-right: 0;
+  }
+
   img {
     display: block;
     margin: 0 auto;
@@ -745,8 +749,10 @@ pre code {
   }
 
   .org-summary {
+    flex: 1;
     background: $grey-100;
     padding: 2rem;
+    padding-bottom: 1rem;
     text-align: left;
   }
 
