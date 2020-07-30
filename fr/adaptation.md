@@ -63,8 +63,8 @@ org_resources:
   url: https://www.communityfoundations.ca/fr/covid19/
 - name: Environment Funders of Canada
   logo: "../../assets/img/efc-logo.png"
-  summary: Financeurs en environnement au Canada fournit des ressources...  [summary
-    here]
+  summary: Consultez les nouvelles et les ressources d'Environnement Funders Canada
+    pour vous aider à surmonter cette crise.
   url: https://environmentfunders.ca/
 - name: The Circle
   logo: "../../assets/img/tc-logo.png"
