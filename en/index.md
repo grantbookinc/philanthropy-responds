@@ -73,14 +73,3 @@ layout: page
 ## Welcome
 
 Philanthropy in Canada is undergoing a major shift in response to the COVID-19 pandemic and many funders have adapted to this unprecedented situation and adjusted their support to grantees. Philanthropy Responds is an interactive data mapping tool designed to identify initiatives and encourage collaboration within the Canadian grantmaking community to better serve Canadians impacted by this crisis. By sharing data and providing a platform to engage funders, along with a timely snapshot of activities and critical gaps in funding, Philanthropy Responds is a useful data tool to build knowledge, encourage collaboration and help funders make decisions.
-
-##### Data Disclaimer
-
-The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada (less than 100). The visualizations will update in real time as more funders submit their data. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
-
-###### Additional Analysis & Research
-
-The Philanthropic Foundations of Canada (PFC), one of the affiliate organizations behind this initiative, has also been producing monthly reports on how to respond to the COVID-19 crisis. View these below:
-- [Report Name - Date](#)
-- [Report Name - Date](#)
-- [Report Name - Date](#)
