@@ -5,11 +5,12 @@ position: 3
 image: "/uploads/hero-participate.png"
 lang: fr
 lang_ref: participate
-excerpt: How philanthropists are adapting.
+excerpt: Are you a funder that has changed your approach in response to the COVID-19
+  pandemic? Contribute your story to the Philanthropy Responds initiative.
 feature_image: "../../assets/img/hero-participate.png"
 feature_text: |
-  ###### PARTICIPATE
-  # Add your story to support this initiative
+  ###### PARTICIPEZ
+  # Ajoutez votre histoire pour appuyer cette initiative
 layout: page
 ---
 
