@@ -84,10 +84,6 @@ Philanthropic Foundations Canada, Environment Funders Canada, Community Foundati
 
 - Avoid duplication and red tape. Reach out to partners and look for practical ways to enhance funding on the ground.
 - Amplify the essential and lead role of public health agencies and governments. 3) Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
-- Offer expertise and funding tools, including endowments and assets, to support the capacity of partners to manage cash flow and preserve or augment operations during the crisis.
-- Provide bridge funding, loans, equity investments, impact investments, and core funding for partners to reorganize operations.
-- Resource and support Indigenous leadership and organizations doing their work in the context of pre-existing health and welfare disparities and the history of pandemics in Indigenous communities.
-- Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen community-led infrastructure for a more inclusive and liveable post-recovery Canada.
 
 ### 3. Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
 
@@ -100,7 +96,7 @@ pre-existing health and welfare disparities and a history of pandemics in Indige
 - Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen
 community-led infrastructure for a more inclusive and liveable post-recovery Canada.
 
-### 4. Support advoacy.
+### 4. Support advocacy.
 - Support and amplify community-based organizations so that their needs are heard and met. This is particularly true for equity-seeking groups, notably Indigenous communities and Indigenous-led organizations, as well as organizations led by Black people, people of color, queer, and non-binary people.
 - Understand and support the imperative for public policymakers to deliver sustainable, equitable, just responses, and programs. Employers, workers, women, newcomers, and others need responses that bridge gaps now and that set up for a positive and progressive recovery. No one can be left behind.
 
