@@ -32,3 +32,10 @@ See the data on how funders in Canada have responded to COVID-19 to better under
 ##### Data Disclaimer
 
 The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada. The visualizations will update in real time as more funders submit survey responses. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
+
+###### Additional Analysis & Research
+
+The Philanthropic Foundations of Canada (PFC), one of the partner organizations behind this initiative, has also been producing monthly reports on how the sector is responding to the COVID-19 crisis, based on snapshots of the survey data. View these below:
+- [Report Name - Date](#)
+- [Report Name - Date](#)
+- [Report Name - Date](#)
