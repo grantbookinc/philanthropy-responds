@@ -29,7 +29,3 @@ layout: page
 ## Tableau de bord philanthropique
 
 Consultez les données sur les mesures prises par les fondations canadiennes en réaction à la COVID-19 pour avoir une meilleure idée des secteurs, des activités, des régions et des populations cibles que les bailleurs de fonds soutiennent. La diffusion de données sur la répartition des dons de bienfaisance et de renseignements sur les initiatives des bailleurs de fonds favorise le développement des connaissances et des capacités et augmente l’impact du secteur.
-
-##### Data Disclaimer
-
-The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada (less than 100). The visualizations will update in real time as more funders submit their data. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
