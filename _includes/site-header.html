@@ -31,10 +31,17 @@
                 <a class="button" href="#dashboard" aria-label="View the Data Visualizations">
                     {% if page.lang == "en" %}See the Data{% else %}Consulter les données{% endif %} &#8594;
                 </a>
-
-                <a class="button--hero" href="/adapt/#five-guiding-principles" aria-label="View the Guiding Principles">
-                    {% if page.lang == "en" %}Guiding Principles{% else %}Principes directeurs{% endif %} &#8594;
+                
+                {% if page.lang == "en" %}
+                <a class="button--hero" href="{{ site.baseurl }}adapt/#five-guiding-principles" aria-label="View the Guiding Principles">
+                    Guiding Principles &#8594;
                 </a>
+                {% else %}
+                <a class="button--hero" href="{{ site.baseurl }}adaptation/#principes-directeurs" aria-label="Principes directeurs">
+                    Principes directeurs &#8594;
+                </a>
+                {% endif %}
+                
             </div>
         </div>
         </div>

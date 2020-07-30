@@ -7,7 +7,7 @@ layout: splash
 ---
 
 ##### WELCOME TO | BIENVENUE À
-# Philanthropy Responds<br/>(La Riposte Philanthropique)
+# Philanthropy Responds<br/>La Riposte Philanthropique
 
 <p>Select your language | Choisissez votre langue</p>
 
