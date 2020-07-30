@@ -10,17 +10,17 @@ feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABOREZ
   # Trouvez des façons de décupler votre impact
-collaborator_hub_title: Trouvez des collaborateurs
-collaborator_hub_blurb: Trouvez d’autres bailleurs de fonds canadiens qui effectuent
-  un travail précieux pour soutenir les communautés les plus touchées par la COVID-19.
-  Cette page des collaborateurs est en constante évolution et sera mise à la disposition
-  de tous les bailleurs de fonds qui ont répondu au sondage en ligne.
 open_data: true
 open_data_title: Téléchargez ces données
 open_data_leed: Ces données ont été recueillies dans le cadre d’un projet de données
   ouvertes. Vous pouvez les télécharger et les organiser de façon à suivre les tendances
   et les caractéristiques qui vous intéressent.
 open_data_button: Obtenir les données
+collaborator_hub_title: Trouvez des collaborateurs
+collaborator_hub_blurb: Trouvez d’autres bailleurs de fonds canadiens qui effectuent
+  un travail précieux pour soutenir les communautés les plus touchées par la COVID-19.
+  Cette page des collaborateurs est en constante évolution et sera mise à la disposition
+  de tous les bailleurs de fonds qui ont répondu au sondage en ligne.
 layout: page
 ---
 
