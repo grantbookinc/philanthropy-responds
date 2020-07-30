@@ -17,7 +17,13 @@ layout: default
     {% if page.lang_ref == "home" %}{% include home-end.html %}{% endif %}
     {% if page.lang_ref == "collaborate" %}{% include collaborate-end.html %}{% endif %}
     {% if page.lang_ref == "adapt" %}{% include adapt-end.html %}{% endif %}
-    {% if page.lang_ref == "participate" %}{% include participate-end.html %}{% endif %}
+    {% if page.lang_ref == "participate" %}
+      {% if page.lang == "en" %}
+        {% include participate-end.html %}
+      {% else %}
+        {% include participate-end-fr.html %}
+      {% endif %}
+    {% endif %}
 
   </article>
 
