@@ -9,60 +9,69 @@ excerpt: How philanthropists are adapting.
 feature_image: "../../assets/img/hero-adapt.png"
 feature_text: |
   ###### ADAPTEZ-VOUS
-  # Learn how to adapt your giving strategy
+  # Apprenez à adapter votre stratégie philanthropique
 intro_text: |
-  ## Peer Learning
-  Canadian philanthropy is building COVID-19 resources that paint up-to-date portraits of our sector’s landscape - why not learn from each other? With this in mind, Philanthropy Responds is your peer learning hub. Find innovative and inspirational stories, resources, and lessons learned.
-quotes_title: What We've Learned
+  ## Apprentissage entre pairs
+  Des organismes philanthropiques canadiens mettent au point des ressources relatives à la COVID-19 qui brossent des portraits à jour du secteur –pourquoi ne pas apprendre les uns des autres? Dans cette optique, la Riposte philanthropique est votre centre d’apprentissage entre pairs. Vous y trouverez des exemples innovants et inspirants, des ressources et des leçons  apprises par d’autres organismes.
+quotes_title: Ce que nous avons appris
 quotes:
 - funder: MAKEWAY
-  quote: The COVID crisis has illuminated  issues of social, cultural, and income
-    inequality, to name just a few. This is not an issue that philanthropy alone can
-    address, and certainly not in its current state of operation.
+  quote: La crise de la COVID-19 a mis en lumière des problèmes liés aux inégalités
+    sociales, culturelles et financières, pour n’en nommer que quelques-uns. Ce n’est
+    pas un défi auquel le secteur philanthropique peut s’attaquer seul, en particulier
+    dans son état de fonctionnement actuel.
   logo: "../../assets/img/funder-quotes/makeway.png"
   location: Toronto, ON
 - funder: Toronto Foundation
-  quote: Offer completely unrestricted grants, with little to no 'hoops to jump through',
-    and very minimal reporting requirements. Everyone is overworked and overtaxed
-    during this time.
+  quote: Offrez des dons sans aucune restriction qui  comportent peu ou pas d’obstacles
+    et sont assortis d’exigences minimales en matière de reddition de compte. Tout
+    le monde est débordé et surmené à l’heure actuelle.
   logo: "../../assets/img/funder-quotes/torontofdn.jpg"
   location: Toronto, ON
 - funder: The Jimmy Pratt Foundation
-  quote: There are a number of groups duplicating services in the communities. Foundations
-    need to act as leaders and nourish environments that foster collaboration to ensure
-    that both our dollars and the public funds stretch as far as they can.
+  quote: Certains groupes offrent les mêmes services dans la collectivité. Les fondations
+    doivent jouer un rôle de leadership et soutenir les environnements propices à
+    la collaboration pour que leur argent et les fonds publics aillent le plus loin
+    possible.
   logo: "../../assets/img/funder-quotes/jimmy-pratt.png"
   location: St. John's, NL
-- funder: PwC Canada Foundation
-  quote: There is a critical need to help Boards and Leadership teams navigate cash
-    flow, liquidity and government announcements.
+- funder: Fondation PwC Canada
+  quote: Il est essentiel d’aider les conseils d’administration et les équipes de
+    direction à gérer les flux de trésorerie et les liquidités et à s’y retrouver
+    dans les annonces des gouvernements.
   logo: "../../assets/img/funder-quotes/pwc-logo.svg"
   location: Toronto, ON
 - funder: The Sitka Foundation
-  quote: Being a family foundation with a small Board, we have always been nimble
-    and responsive. Now more than ever we are realizing the benefit of people able
-    to convene and make decisions quickly with minimal processes.
+  quote: Étant une fondation familiale comptant peu d’administrateurs, nous avons
+    toujours été agile et réactif. Nous prenons conscience aujourd’hui plus que jamais
+    des avantages que des gens puissent se réunir et prendre des décisions rapidement
+    sans trop de contraintes procédurales.
   logo: "../../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
 org_resources:
-- name: Philanthropic Foundations of Canada
+- name: Fondations philanthropiques Canada
   logo: "../../assets/img/pfc-logo.png"
-  summary: Philanthropic Foundations of Canada provides resources... [summary here]
-  url: https://pfc.ca/covid19/
+  summary: Lisez les dernières nouvelles de FPC concernant la COVID-19 &  la communauté
+    philanthropique.
+  url: https://pfc.ca/fr/covid19/
 - name: Community Foundations of Canada
   logo: "../../assets/img/cfc-logo.png"
-  summary: Community Foundations of Canada provides resources... [summary here]
-  url: https://www.communityfoundations.ca/covid19/
+  summary: Au Canada et à travers le monde, nos communautés vivent une période difficile.
+    Avec la déclaration sur la pandémie liée au coronavirus (COVID-19), nous voulons
+    vous informer de nos mesures de soutien aux fondations communautaires et de nos
+    activités durant cette crise.
+  url: https://www.communityfoundations.ca/fr/covid19/
 - name: Environment Funders of Canada
   logo: "../../assets/img/efc-logo.png"
-  summary: Envronment Funders Canada provides resources... [summary here]
+  summary: Consultez les nouvelles et les ressources d'Environnement Funders Canada
+    pour vous aider à surmonter cette crise.
   url: https://environmentfunders.ca/
 - name: The Circle
   logo: "../../assets/img/tc-logo.png"
-  summary: In response to the global pandemic, The Circle has been working alongside
-    our partners in the non-profit and philanthropic sectors to develop guiding principles
-    to assist foundations in supporting grantees carry on their important work in
-    communities throughout and after the crisis.
+  summary: En réponse à la pandémie mondiale, The Circle collabore avec ses partenaires
+    des secteurs sans but lucratif et philanthropique pour établir des principes directeurs
+    en vue d’aider les fondations à soutenir leurs donataires dans le cadre de leur
+    travail essentiel au sein des communautés durant et après la crise.
   url: https://www.the-circle.ca/principles-of-care.html
 layout: page
 ---
@@ -71,44 +80,36 @@ layout: page
 
 Fondations philanthropiques Canada, Financeurs en environnement au Canada, Fondations communautaires du Canada et Le cercle sur la philanthropie et les peuples autochtones au Canada ont établi cinq principes directeurs pour aider les fondations à soutenir leurs donataires.
 
-### 1. Be flexible, pragmatic, and proactive in grant-making
+### 1. Faire preuve de flexibilité, de pragmatisme et de proactivité dans notre subventionnement
 
-- Convert restricted grants to unrestricted funds or, at a minimum, loosen restrictions on existing grants.
-- Demonstrate flexibility in reporting timelines and deliverables.
-- Accelerate payment schedules (regardless of upheavals in the market).
-- Simplify application guidelines.
-- Provide unrestricted emergency grants to existing partners and expand funding scope.
-- Continue whenever possible regular grant-making cycles to protect the operational capacity of partners.
+- Convertir les subventions affectées en fonds sans restriction, ou pour le moins assouplir les restrictions associées aux subventions existantes;
+- Assurer une flexibilité pour les livrables et les échéanciers liés aux rapports;
+- Accélérer les calendriers des paiements (malgré les turbulences sur les marchés);
+- Simplifier les directives pour les demandes;
+- Fournir des subventions d’urgence non affectées aux partenaires actuels, et élargir la portée du financement;
+- Poursuivre si possible les cycles réguliers de subventionnement afin de protéger la capacité opérationnelle des partenaires.
 
-### 2. Collaborate on or contribute to emergency funds at the community and national levels as they emerge.
+### 2. Collaborer ou contribuer aux fonds d’urgence aux niveaux local et national, à mesure qu’ils sont créés 
 
-- Avoid duplication and red tape. Reach out to partners and look for practical ways to enhance funding on the ground.
-- Amplify the essential and lead role of public health agencies and governments. 3) Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
-- Offer expertise and funding tools, including endowments and assets, to support the capacity of partners to manage cash flow and preserve or augment operations during the crisis.
-- Provide bridge funding, loans, equity investments, impact investments, and core funding for partners to reorganize operations.
-- Resource and support Indigenous leadership and organizations doing their work in the context of pre-existing health and welfare disparities and the history of pandemics in Indigenous communities.
-- Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen community-led infrastructure for a more inclusive and liveable post-recovery Canada.
+- Éviter le dédoublement et la paperasserie. Contacter les partenaires et chercher des moyens pratiques d’améliorer le financement sur le terrain;
+- Amplifier les efforts menés par les agences de la santé publique et par les gouvernements.
 
 ### 3. Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
 
-- Offer expertise and funding tools, including endowments and assets, to support the capacity of
-partners to manage cash flow and preserve or augment operations during the crisis.
-- Provide bridge funding, loans, equity investments, impact investments and core funding for
-partners to reorganize operations.
-- Resource and support Indigenous leadership and organizations doing their work in the context of
-pre-existing health and welfare disparities and a history of pandemics in Indigenous communities.
-- Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen
-community-led infrastructure for a more inclusive and liveable post-recovery Canada.
+- Offrir une expertise et des outils de financement, notamment des actifs et des fonds de dotation, pour soutenir la capacité des partenaires à gérer les flux de trésorerie et à maintenir ou augmenter leurs activités durant la crise;
+- Fournir un financement temporaire, des prêts, des placements en actions, des investissements d’impact et un financement de base aux partenaires pour qu’ils puissent réorganiser leurs activités;
+- Offrir des ressources et une aide aux leaders et aux organisations autochtones qui s’efforcent d’accomplir leur travail en dépit des disparités préexistantes en matière de santé et de bien-être, et des antécédents de pandémie dans les communautés autochtones;
+- Prendre des risques et investir autrement dans les OSBL, afin de bâtir et de renforcer l’infrastructure communautaire pour un Canada plus inclusif et plus viable lorsque la vie reprendra son cours.
 
-### 4. Support advoacy.
-- Support and amplify community-based organizations so that their needs are heard and met. This is particularly true for equity-seeking groups, notably Indigenous communities and Indigenous-led organizations, as well as organizations led by Black people, people of color, queer, and non-binary people.
-- Understand and support the imperative for public policymakers to deliver sustainable, equitable, just responses, and programs. Employers, workers, women, newcomers, and others need responses that bridge gaps now and that set up for a positive and progressive recovery. No one can be left behind.
+### 4. Appuyer les activités de plaidoirie
+- Appuyer les organisations communautaires et faire connaître leurs besoins. Ce qui est particulièrement important pour les groupes en quête d’équité, entre autres les communautés autochtones et les organisations dirigées par des Autochtones, ainsi que les organisations dirigées par des noirs, des gens de couleur, des queers et des non-binaires;
+- Comprendre et soutenir qu’il est impératif que les décideurs politiques livrent des réponses et des programmes durables, justes et équitables. Employeurs, travailleurs, femmes, nouveaux arrivants et autres groupes ont tous besoin de réponses afin de combler maintenant les fossés et de donner le ton pour un rétablissement positif et progressif. On ne peut laisser personne de côté.
 
-### 5. Take the long view and stay engaged.
-- Provide emergency funding AND take the long view;
-- Remain open to addressing the gaps and needs that will emerge post-crisis in periods of stabilization, recovery, and rejuvenation;
-- Invest time and energy to notice, make visible, and share with others new ways and norms of approaching our work that result in deep change and can be scaled up toward equity and justice in the months and years to come.
+### 5. Prendre une approche à long terme et maintenir l’engagement
+- Fournir des fonds d’urgence ET prendre une approche à long terme;
+- Faire preuve d’ouverture pour combler les lacunes et répondre aux besoins qui émergeront après la crise, lorsque sera venu le temps de la stabilisation, du rétablissement et du renouvellement;
+- Investir temps et énergie pour remarquer, montrer et partager avec d’autres de nouveaux moyens et de nouvelles normes afin d’approcher notre travail, qui engendreront un profond changement et favoriseront plus d’équité et de justice, dans les mois et les années à venir.
 
-## More COVID-19 Response Resources
+## Ressources additionnelles sur la riposte à la COVID-19
 
-Find robust response resources from the partners behind the Philanthropy Responds Initiative:
+Découvrez les ressources étoffées qu’ont mises au point les partenaires à l’origine de La Riposte philanthropique :

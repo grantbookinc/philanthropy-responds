@@ -8,7 +8,12 @@
         <p>{{ org.summary }}</p>
       </div>
       <a class="button" href="{{ org.url }}">
-        View Resources &#8594;
+        {% if page.lang == en %}
+        View Resources
+        {% else %}
+        Consulter les ressources
+        {% endif %}
+         &#8594;
       </a>
     </div>
   </div>

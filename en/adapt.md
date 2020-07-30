@@ -47,15 +47,19 @@ quotes:
 org_resources:
 - name: Philanthropic Foundations of Canada
   logo: "../../assets/img/pfc-logo.png"
-  summary: Philanthropic Foundations of Canada provides resources... [summary here]
+  summary: Read the latest COVID-19 developments affecting PFC’s philanthropic community.
   url: https://pfc.ca/covid19/
 - name: Community Foundations of Canada
   logo: "../../assets/img/cfc-logo.png"
-  summary: Community Foundations of Canada provides resources... [summary here]
+  summary: 'It is a difficult moment for communities in Canada and around the world.
+    With the declaration of a COVID-19 pandemic, we want to share information about
+    the steps we are taking to support community foundations as well as updates about
+    our operations during the crisis. '
   url: https://www.communityfoundations.ca/covid19/
 - name: Environment Funders of Canada
   logo: "../../assets/img/efc-logo.png"
-  summary: Envronment Funders Canada provides resources... [summary here]
+  summary: View news and resources from the Environment Funders Canada to help navigate
+    this crisis.
   url: https://environmentfunders.ca/
 - name: The Circle
   logo: "../../assets/img/tc-logo.png"
@@ -84,10 +88,6 @@ Philanthropic Foundations Canada, Environment Funders Canada, Community Foundati
 
 - Avoid duplication and red tape. Reach out to partners and look for practical ways to enhance funding on the ground.
 - Amplify the essential and lead role of public health agencies and governments. 3) Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
-- Offer expertise and funding tools, including endowments and assets, to support the capacity of partners to manage cash flow and preserve or augment operations during the crisis.
-- Provide bridge funding, loans, equity investments, impact investments, and core funding for partners to reorganize operations.
-- Resource and support Indigenous leadership and organizations doing their work in the context of pre-existing health and welfare disparities and the history of pandemics in Indigenous communities.
-- Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen community-led infrastructure for a more inclusive and liveable post-recovery Canada.
 
 ### 3. Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
 
@@ -100,7 +100,7 @@ pre-existing health and welfare disparities and a history of pandemics in Indige
 - Take risks and invest in nonprofit organizations in new ways, with a goal to build and strengthen
 community-led infrastructure for a more inclusive and liveable post-recovery Canada.
 
-### 4. Support advoacy.
+### 4. Support advocacy.
 - Support and amplify community-based organizations so that their needs are heard and met. This is particularly true for equity-seeking groups, notably Indigenous communities and Indigenous-led organizations, as well as organizations led by Black people, people of color, queer, and non-binary people.
 - Understand and support the imperative for public policymakers to deliver sustainable, equitable, just responses, and programs. Employers, workers, women, newcomers, and others need responses that bridge gaps now and that set up for a positive and progressive recovery. No one can be left behind.
 
