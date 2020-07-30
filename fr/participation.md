@@ -14,6 +14,6 @@ feature_text: |
 layout: page
 ---
 
-## Every story counts
+## Chaque histoire compte
 
-Philanthropy Responds is made possible through your contributions. Your data helps provide a more complete picture of how the Canadian philanthropic sector is responding to the COVID-19 crisis — and helps all of us pinpoint gaps and where we can collaborate to multiply our impact.
+La Riposte philanthropique est possible grâce à votre participation. Vos données permettent de brosser un portrait plus complet de la riposte du secteur philanthropique canadien à la crise de la COVID-19 et nous aident tous à déceler les lacunes et les occasions de collaboration pour décupler notre impact.
