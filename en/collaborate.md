@@ -5,7 +5,7 @@ position: 1
 image: "/uploads/hero-collaborate.png"
 lang: en
 lang_ref: collaborate
-excerpt: See how Canadian philanthropists have pivoted to support their communities
+excerpt: See how philanthropists in Canada have pivoted to support their communities
   in the wake of the COVID-19 crisis. View our collaborator hub to find other funders
   to work with.
 feature_image: "../../assets/img/hero-collaborate.png"
@@ -13,9 +13,8 @@ feature_text: |
   ###### COLLABORATE
   # Find ways to multiply your impact
 collaborator_hub_title: Find Collaborators
-collaborator_hub_blurb: Find other Canadian grantmakers doing valuable work to support
-  communities impacted by COVID-19. This collaborators page is a work in progress
-  and will be made available to all funders that have completed the online survey.
+collaborator_hub_blurb: Find other grantmakers in Canada doing valuable work to support
+  communities impacted by COVID-19.
 open_data: false
 open_data_title: Download The Data
 open_data_leed: As part of this project, some respondents allowed for their survey
@@ -28,8 +27,8 @@ layout: page
 
 ## Giving Dashboard
 
-See the data on how Canadian foundations have responded to COVID-19 to better understand the impact areas, activities, regions, and target populations funders are supporting. Sharing data on how charitable giving is being distributed and learning about the initiatives of other grantmakers increases knowledge and capacity and broadens the impact of the sector. 
+See the data on how funders in Canada have responded to COVID-19 to better understand the impact areas, activities, regions, and target populations funders are supporting. Sharing data on how charitable giving is being distributed and learning about the initiatives of other grantmakers increases knowledge and capacity and broadens the impact of the sector. 
 
 ##### Data Disclaimer
 
-The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada (less than 100). The visualizations will update in real time as more funders submit their data. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
+The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada. The visualizations will update in real time as more funders submit survey responses. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
