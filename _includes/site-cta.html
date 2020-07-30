@@ -4,7 +4,7 @@
       <div class="cta-description text-white {% if cta.highlighted %}bg-grape{% endif %}">
         <h4 class="text-white"><b>{{ cta.title }}</b></h4>
         <p>{{ cta.leed }}</p>
-        <a class="button--transparent" href="/adapt/">
+        <a class="button--transparent" href="{{ site.baseurl }}{{ cta.url }}">
           {{ cta.button }} &#8594;
         </a>
       </div>

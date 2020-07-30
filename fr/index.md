@@ -50,6 +50,7 @@ cta:
   leed: Adaptez-vous à cette situation changeante en vous inspirant de ce que font
     d’autres bailleurs de fonds.
   button: Adaptation
+  url: "/fr/adaptation"
   img: "../assets/img/cta-adapt-bg.png"
   img_alt: A road sign indicating bends in the road ahead
   flipped: false
@@ -58,6 +59,7 @@ cta:
   leed: Collaborez avec des bailleurs de fonds ayant des projets similaires pour décupler
     votre impact.
   button: Collaboration
+  url: "/fr/collaboration"
   img: "../assets/img/cta-collaborate-bg.png"
   img_alt: A painting of a pair of clasped hands
   flipped: true
@@ -66,6 +68,7 @@ cta:
   leed: Participez à ce projet de diffusion des connaissances en ajoutant votre histoire
     à nos données.
   button: Participation
+  url: "/fr/participation"
   img: "../assets/img/cta-participate-bg.png"
   img_alt: A photo of a droplet of water
   flipped: false
