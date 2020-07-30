@@ -6,10 +6,18 @@
 
 <div id="dashboard" style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 100%;">
-    {% include data-1-overview.html %}
+    {% if page.lang == "en" %}
+      {% include data-1-overview.html %}
+    {% else %}
+      {% include data-1-overview-fr.html %}
+    {% endif %}
   </div>
   <div style="flex: 0 0 100%;">
-    {% include data-2-funding.html %}
+    {% if page.lang == "en" %}
+      {% include data-2-funding.html %}
+    {% else %}
+      {% include data-2-funding-fr.html %}
+    {% endif %}
   </div>
 </div>
 

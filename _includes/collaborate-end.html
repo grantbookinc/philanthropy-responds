@@ -1,9 +1,17 @@
 <div style="display: flex; align-items: center; flex-wrap: wrap;">
   <div style="flex: 0 0 100%;">
-    {% include data-3-grantees.html %}
+    {% if page.lang == "en" %}
+      {% include data-3-grantees.html %}
+    {% else %}
+      {% include data-3-grantees-fr.html %}
+    {% endif %}
   </div>
   <div style="flex: 0 0 100%;">
-    {% include data-4-beneficiaries.html %}
+    {% if page.lang == "en" %}
+      {% include data-4-beneficiaries.html %}
+    {% else %}
+      {% include data-4-beneficiaries-fr.html %}
+    {% endif %}
   </div>
 </div>
 

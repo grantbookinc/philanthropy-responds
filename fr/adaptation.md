@@ -94,7 +94,7 @@ Fondations philanthropiques Canada, Financeurs en environnement au Canada, Fonda
 - Éviter le dédoublement et la paperasserie. Contacter les partenaires et chercher des moyens pratiques d’améliorer le financement sur le terrain;
 - Amplifier les efforts menés par les agences de la santé publique et par les gouvernements.
 
-### 3. Stretch and deploy expertise and funds to protect the capacity and resilience of nonprofit and charitable organizations.
+### 3. Développer et déployer l’expertise et les fonds afin de protéger la capacité et la résilience des organisations de première ligne
 
 - Offrir une expertise et des outils de financement, notamment des actifs et des fonds de dotation, pour soutenir la capacité des partenaires à gérer les flux de trésorerie et à maintenir ou augmenter leurs activités durant la crise;
 - Fournir un financement temporaire, des prêts, des placements en actions, des investissements d’impact et un financement de base aux partenaires pour qu’ils puissent réorganiser leurs activités;
