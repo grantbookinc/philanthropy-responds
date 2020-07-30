@@ -22,7 +22,12 @@
 </div>
 
 <div style="text-align: right;">
-  <a class="button" href="/collaborate/">
-    {% if page.lang == "en" %}View More Data{% else %}Afficher plus de données{% endif %} &#8594;
+  {% if page.lang == "en" %}
+  <a class="button" href="/en/collaborate#dashboards>
+    View More Data &#8594;
+    {% else %}
+  <a class="button" href="/fr/collaborate#dashboards">
+    Afficher plus de données &#8594;
+  {% endif %}
   </a>
 </div>
