@@ -1,10 +1,10 @@
 <!-- If there are quotes on this page -->
 {% if page.quotes %}
-<h3>{{ page.quotes_title }}</h3>
+<h3 style="margin-top: 4rem;">{{ page.quotes_title }}</h3>
 {% include quotes-carousel.html %}
 {% endif %}
 
-<div id="dashboard" style="display: flex; align-items: center; flex-wrap: wrap;">
+<div id="dashboard" style="display: flex; align-items: center; flex-wrap: wrap">
   <div style="flex: 0 0 100%;">
     {% if page.lang == "en" %}
       {% include data-1-overview.html %}
