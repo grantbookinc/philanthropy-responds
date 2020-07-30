@@ -67,9 +67,9 @@ org_resources:
 layout: page
 ---
 
-## Five Guiding Principles
+## Cinq principes directeurs
 
-Philanthropic Foundations Canada, Environment Funders Canada, Community Foundations of Canada, and The Circle on Philanthropy and Aboriginal Peoples in Canada highlights four guiding principles to assist foundations in supporting their grantees.
+Fondations philanthropiques Canada, Financeurs en environnement au Canada, Fondations communautaires du Canada et Le cercle sur la philanthropie et les peuples autochtones au Canada ont établi cinq principes directeurs pour aider les fondations à soutenir leurs donataires.
 
 ### 1. Be flexible, pragmatic, and proactive in grant-making
 
