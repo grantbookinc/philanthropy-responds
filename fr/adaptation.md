@@ -49,24 +49,29 @@ quotes:
   logo: "../../assets/img/funder-quotes/sitka.png"
   location: Vancouver, BC
 org_resources:
-- name: Philanthropic Foundations of Canada
+- name: Fondations philanthropiques Canada
   logo: "../../assets/img/pfc-logo.png"
-  summary: Philanthropic Foundations of Canada provides resources... [summary here]
-  url: https://pfc.ca/covid19/
+  summary: Lisez les dernières nouvelles de FPC concernant la COVID-19 &  la communauté
+    philanthropique.
+  url: https://pfc.ca/fr/covid19/
 - name: Community Foundations of Canada
   logo: "../../assets/img/cfc-logo.png"
-  summary: Community Foundations of Canada provides resources... [summary here]
-  url: https://www.communityfoundations.ca/covid19/
+  summary: Au Canada et à travers le monde, nos communautés vivent une période difficile.
+    Avec la déclaration sur la pandémie liée au coronavirus (COVID-19), nous voulons
+    vous informer de nos mesures de soutien aux fondations communautaires et de nos
+    activités durant cette crise.
+  url: https://www.communityfoundations.ca/fr/covid19/
 - name: Environment Funders of Canada
   logo: "../../assets/img/efc-logo.png"
-  summary: Envronment Funders Canada provides resources... [summary here]
+  summary: Financeurs en environnement au Canada fournit des ressources...  [summary
+    here]
   url: https://environmentfunders.ca/
 - name: The Circle
   logo: "../../assets/img/tc-logo.png"
-  summary: In response to the global pandemic, The Circle has been working alongside
-    our partners in the non-profit and philanthropic sectors to develop guiding principles
-    to assist foundations in supporting grantees carry on their important work in
-    communities throughout and after the crisis.
+  summary: En réponse à la pandémie mondiale, The Circle collabore avec ses partenaires
+    des secteurs sans but lucratif et philanthropique pour établir des principes directeurs
+    en vue d’aider les fondations à soutenir leurs donataires dans le cadre de leur
+    travail essentiel au sein des communautés durant et après la crise.
   url: https://www.the-circle.ca/principles-of-care.html
 layout: page
 ---
