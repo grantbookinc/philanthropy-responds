@@ -40,5 +40,3 @@ The Philanthropic Foundations of Canada (PFC), one of the partner organizations 
 * [July Report](https://pfc.ca/wp-content/uploads/2020/07/pfc_insights_covid19_july_eng.pdf)
 
 * [June Report](https://pfc.ca/wp-content/uploads/2020/06/pfc-covid-insights-english-june-2020.pdf)
-
-* [Report Name - Date](#)
