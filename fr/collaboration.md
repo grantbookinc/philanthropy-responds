@@ -29,3 +29,15 @@ layout: page
 ## Tableau de bord philanthropique
 
 Consultez les données sur les mesures prises par les fondations canadiennes en réaction à la COVID-19 pour avoir une meilleure idée des secteurs, des activités, des régions et des populations cibles que les bailleurs de fonds soutiennent. La diffusion de données sur la répartition des dons de bienfaisance et de renseignements sur les initiatives des bailleurs de fonds favorise le développement des connaissances et des capacités et augmente l’impact du secteur.
+
+##### AVERTISSEMENT DE DONNÉES
+
+Les visualisations sur ce site web ont été fondées sur les réponses soumises volontairement par un sous-ensemble de bailleurs de fonds au Canada. Les visualisations seront mises à jour en temps réel à mesure que de plus en plus de bailleurs de fonds soumettront des réponses au sondage. Si vous êtes un bailleur de fonds au Canada, vous pouvez également participer en contribuant vos renseignements.
+
+###### ANALYSE SUPPLÉMENTAIRE ET RECHERCHE
+
+Fondations philanthropiques Canada (FPC), l’une des organisations partenaires à l’origine de cette initiative, a également produit des rapports mensuels sur la façon dont le secteur réagit à la crise de la COVID-19, basés sur les données de l’enquête. Voir ces rapports ci-dessous:
+
+* [Le rapport de juillet](https://pfc.ca/wp-content/uploads/2020/07/fpc_apercu_covid19_-juillet_fr.pdf)
+
+* [Le rapport de juin](https://pfc.ca/wp-content/uploads/2020/06/fpc-apercu-covid-19-juin-2020.pdf)
