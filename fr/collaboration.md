@@ -32,7 +32,7 @@ Consultez les données sur les mesures prises par les fondations canadiennes en 
 
 ##### AVERTISSEMENT DE DONNÉES
 
-Les visualisations sur ce site web ont été fondées sur les réponses soumises volontairement par un sous-ensemble de bailleurs de fonds au Canada. Les visualisations seront mises à jour en temps réel à mesure que de plus en plus de bailleurs de fonds soumettront des réponses au sondage. Si vous êtes un bailleur de fonds au Canada, vous pouvez également participer en contribuant vos renseignements.
+Les visualisations sur ce site web ont été fondées sur les réponses soumises volontairement par un sous-ensemble de bailleurs de fonds au Canada. Les visualisations seront mises à jour en temps réel à mesure que de plus en plus de bailleurs de fonds soumettront des réponses au sondage. Si vous êtes un bailleur de fonds au Canada, vous pouvez également participer en [contribuant vos renseignements](/fr/collaboration).
 
 ###### ANALYSE SUPPLÉMENTAIRE ET RECHERCHE
 
