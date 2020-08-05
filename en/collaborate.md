@@ -27,7 +27,7 @@ layout: page
 
 ## Giving Dashboard
 
-See the data on how funders in Canada have responded to COVID-19 to better understand the impact areas, activities, regions, and target populations funders are supporting. Sharing data on how charitable giving is being distributed and learning about the initiatives of other grantmakers increases knowledge and capacity and broadens the impact of the sector. 
+See the data on how funders in Canada have responded to COVID-19 to better understand the impact areas, activities, regions, and target populations funders are supporting. Sharing data on how charitable giving is being distributed and learning about the initiatives of other grantmakers increases knowledge and capacity and broadens the impact of the sector.
 
 ##### Data Disclaimer
 
@@ -36,6 +36,7 @@ The visualizations on this website were based on voluntary responses submitted b
 ###### Additional Analysis & Research
 
 The Philanthropic Foundations of Canada (PFC), one of the partner organizations behind this initiative, has also been producing monthly reports on how the sector is responding to the COVID-19 crisis, based on snapshots of the survey data. View these below:
-- [Report Name - Date](#)
-- [Report Name - Date](#)
-- [Report Name - Date](#)
+
+* [July Report](https://pfc.ca/wp-content/uploads/2020/07/pfc_insights_covid19_july_eng.pdf)
+
+* [June Report](https://pfc.ca/wp-content/uploads/2020/06/pfc-covid-insights-english-june-2020.pdf)
