@@ -9,7 +9,7 @@ excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |
   # Philanthropy Responds
-  Learn how Canadian foundations are adapting to support charities and other organizations during this unprecedented global crisis.
+  Learn how foundations in Canada are adapting to support charities and other organizations during this unprecedented global crisis.
 quotes_title: Lessons Learned
 quotes:
 - funder: MAKEWAY
