@@ -20,8 +20,8 @@ quotes:
   location: Toronto, ON
 - funder: Toronto Foundation
   quote: Offer completely unrestricted grants, with little to no 'hoops to jump through',
-    and very minimal reporting requirements. Everyone is overworked and overtaxed
-    during this time.
+    and very minimal reporting requirements. Everyone is overworked [...] during this
+    time.
   logo: "../../assets/img/funder-quotes/torontofdn.jpg"
   location: Toronto, ON
 - funder: The Jimmy Pratt Foundation
