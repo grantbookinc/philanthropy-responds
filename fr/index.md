@@ -9,7 +9,7 @@ excerpt: A joint digital project between PFC, CFC, EFC, and The Circle.
 feature_image: "../../assets/img/hero_masks.png"
 feature_text: |-
   # La Riposte philanthropique
-  Découvrez comment les fondations canadiennes s’adaptent pour venir en aide aux œuvres de bienfaisance et d'autres organismes durant cette crise mondiale sans précédent.
+  Découvrez comment les fondations au Canada s’adaptent pour venir en aide aux œuvres de bienfaisance et d'autres organismes durant cette crise mondiale sans précédent.
 quotes_title: Leçons apprises
 quotes:
 - funder: MAKEWAY
