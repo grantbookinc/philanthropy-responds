@@ -57,11 +57,12 @@ logo: "/assets/brand/Logo.svg"
 logo-fr: "/assets/brand/Logo-FR.svg"
 description: A website for Canadian philanthropy.
 url: https://philanthropyresponds.ca
-baseurl: 
+baseurl:
 avatarurl: "/assets/brand/lotus@32.png"
 repo: https://github.com/grantbookinc/philanthropy-responds
 email: hey@grantbook.org
 css_inline: true
+google_analytics: UA-46148471-7
 favicons:
 - '16': "/assets/brand/lotus@16px.png"
 - '32': "/assets/brand/lotus@32px.png"
