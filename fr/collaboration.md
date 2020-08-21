@@ -38,6 +38,8 @@ Les visualisations sur ce site web ont été fondées sur les réponses soumises
 
 Fondations philanthropiques Canada (FPC), l’une des organisations partenaires à l’origine de cette initiative, a également produit des rapports mensuels sur la façon dont le secteur réagit à la crise de la COVID-19, basés sur les données de l’enquête. Voir ces rapports ci-dessous:
 
-* [Le rapport de juillet](https://pfc.ca/wp-content/uploads/2020/07/fpc_apercu_covid19_-juillet_fr.pdf)
+* [Le rapport d'août](https://pfc.ca/wp-content/uploads/2020/08/pfc005-covid-analyse-aout-2020-fr_4.pdf)
+
+* [Le rapport de juillet](https://pfc.ca/wp-content/uploads/2020/08/fpc_apercu_covid19_-juillet_fr_te-act.pdf)
 
 * [Le rapport de juin](https://pfc.ca/wp-content/uploads/2020/06/fpc-apercu-covid-19-juin-2020.pdf)
