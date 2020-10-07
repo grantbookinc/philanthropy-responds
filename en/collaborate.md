@@ -17,7 +17,7 @@ collaborator_hub_blurb: Find other grantmakers in Canada doing valuable work to 
   communities impacted by COVID-19.
 open_data: true
 open_data_title: Download The Data
-open_data_leed: As part of this project, some respondents allowed for their survey
+open_data_text: As part of this project, some respondents allowed for their survey
   response data to be shared as [open data](https://okfn.org/opendata/). This means
   you can download and reuse the data for any purpose, given you meet the terms of
   the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) licence.
