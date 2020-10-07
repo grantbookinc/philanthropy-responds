@@ -12,7 +12,7 @@ feature_image: "../../assets/img/hero-collaborate.png"
 feature_text: |
   ###### COLLABOREZ
   # Trouvez des façons de décupler votre impact
-open_data: false
+open_data: true
 open_data_title: Téléchargez ces données
 open_data_leed: Ces données ont été recueillies dans le cadre d’un projet de données
   ouvertes. Vous pouvez les télécharger et les organiser de façon à suivre les tendances
