@@ -651,13 +651,6 @@ a {
       background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 50%,$hoverColour 50%);
     }
   }
-  
-  // Remove shadow for data-banner
-  
-  .data-banner a {
-    text-shadow: none !important;
-    color: white;
-  }
 
   // Paragraphs. OpenType ligatures and oldstyle figures enabled if available.
   p {
