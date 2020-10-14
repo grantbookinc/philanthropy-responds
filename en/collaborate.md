@@ -31,7 +31,7 @@ See the data on how funders in Canada have responded to COVID-19 to better under
 
 ##### Data Disclaimer
 
-The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada. The visualizations will update in real time as more funders submit survey responses. If you are a funder in Canada, you can also participate by [contributing your information](/en/participate).
+The visualizations on this website were based on voluntary responses submitted by a subset of funders in Canada as well as integrated [Emergency Community Support Fund (ESCF)](https://communityfoundations.ca/covid-19-granting-results-data-the-emergency-community-support-fund-ecsf/) data, generously provided by Community Foundations of Canada. Please note that various ECSF data fields did not directly correspond to those in the survey and may have been omitted from certain visualizations to maintain relevance of the data; refer to the TOOLTIP below each dashboard for more information on the included data. The visualizations will update in real time as more funders submit survey responses. If you are a funder in Canada, you can participate by [contributing your information](/en/participate).
 
 ###### Additional Analysis & Research
 
