@@ -37,6 +37,8 @@ The visualizations on this website were based on voluntary responses submitted b
 
 The Philanthropic Foundations of Canada (PFC), one of the partner organizations behind this initiative, has also been producing monthly reports on how the sector is responding to the COVID-19 crisis, based on snapshots of the survey data. View these below:
 
+* [November Report](https://pfc.ca/wp-content/uploads/2020/11/pfc-covid-survey-report-november-2020_final.pdf)
+
 * [August Report](https://pfc.ca/wp-content/uploads/2020/08/pfc005-covid-survey-august-2020-en_9.pdf)
 
 * [July Report](https://pfc.ca/wp-content/uploads/2020/08/pfc_insights_covid19_july_eng_te-act.pdf)
