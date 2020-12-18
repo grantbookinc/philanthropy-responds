@@ -32,7 +32,8 @@ Consultez les données sur les mesures prises par les fondations canadiennes en 
 
 ##### AVERTISSEMENT DE DONNÉES
 
-Les visualisations sur ce site web ont été fondées sur les réponses soumises volontairement par un sous-ensemble de bailleurs de fonds au Canada. Les visualisations seront mises à jour en temps réel à mesure que de plus en plus de bailleurs de fonds soumettront des réponses au sondage. Si vous êtes un bailleur de fonds au Canada, vous pouvez également participer en [contribuant vos renseignements](/fr/collaboration).
+Les visualisations présentées sur ce site Web s’appuient sur les réponses soumises volontairement par un sous-ensemble de bailleurs de fonds canadiens ainsi que sur les données intégrées du [Fonds d’urgence pour l’appui communautaire (FUAC)](https://communityfoundations.ca/fr/covid-19-resultats-de-la-subvention-fonds-durgence-pour-lappui-communautaire-fuac/) qui ont été généreusement fournies par Fondations communautaires du Canada. Veuillez noter que divers champs de données du FUAC ne correspondent pas directement à ceux de l’enquête et peuvent avoir été omis de certaines visualisations pour préserver la pertinence des données; consultez l’infobulle sous chaque tableau de bord pour connaître les données incluses. Les visualisations sont mises à jour en temps réel à mesure que d’autres bailleurs de fonds participent à l’enquête. Si vous êtes un bailleur de fonds canadien, vous pouvez y participer en [fournissant vos informations](/fr/collaboration).
+
 
 ###### ANALYSE SUPPLÉMENTAIRE ET RECHERCHE
 
