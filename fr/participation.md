@@ -1,7 +1,6 @@
 ---
 title: Participation
 date: 2020-07-01 12:10:00 -04:00
-published: false
 position: 3
 image: "/uploads/hero-participate.png"
 lang: fr
