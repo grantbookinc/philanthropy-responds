@@ -57,7 +57,7 @@ logo: "/assets/brand/Logo.svg"
 logo-fr: "/assets/brand/Logo-FR.svg"
 description: A website for Canadian philanthropy.
 url: https://philanthropyresponds.ca
-baseurl: 
+baseurl:
 avatarurl: "/assets/brand/lotus@32.png"
 repo: https://github.com/grantbookinc/philanthropy-responds
 email: hey@grantbook.org
@@ -91,7 +91,7 @@ navigation_header:
   title-fr: Adaptation
   url-en: "/adapt"
   url-fr: "/adaptation"
-- title: Participate
-  title-fr: Participation
-  url-en: "/participate"
-  url-fr: "/participation"
+# - title: Participate
+#   title-fr: Participation
+#   url-en: "/participate"
+#   url-fr: "/participation"

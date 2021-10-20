@@ -58,15 +58,6 @@ cta:
   img_alt: A painting of a pair of clasped hands
   flipped: true
   highlighted: false
-- title: Participate
-  leed: Participate in this knowledge-sharing project by adding your story to our
-    data.
-  button: Participate
-  url: "/en/participate"
-  img: "../assets/img/cta-participate-bg.png"
-  img_alt: A photo of a droplet of water
-  flipped: false
-  highlighted: true
 layout: page
 ---
 

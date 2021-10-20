@@ -7,7 +7,7 @@ layout: default
 <main class="main  container">
 
   <article class="article article--page content typeset">
-    
+
     <!-- Hard-Coded Components Before Content -->
     {% if page.lang_ref == "adapt" %}{% include adapt-start.html %}{% endif %}
 
@@ -17,13 +17,13 @@ layout: default
     {% if page.lang_ref == "home" %}{% include home-end.html %}{% endif %}
     {% if page.lang_ref == "collaborate" %}{% include collaborate-end.html %}{% endif %}
     {% if page.lang_ref == "adapt" %}{% include adapt-end.html %}{% endif %}
-    {% if page.lang_ref == "participate" %}
+    <!-- {% if page.lang_ref == "participate" %}
       {% if page.lang == "en" %}
         {% include participate-end.html %}
       {% else %}
         {% include participate-end-fr.html %}
       {% endif %}
-    {% endif %}
+    {% endif %} -->
 
   </article>
 
